@@ -1,8 +1,7 @@
 # Wikibase resources
-A collection of resources, overviews, links and knowlegde related to Wikibase, curated by KB, national library of the Netherlands.
+*A collection of resources, overviews, links and knowlegde related to Wikibase, collected and curated by KB, national library of the Netherlands.*
 
-Originally extracted from the presentation Introduction Wikibase, the basics, 7 sept 2023 for employeees of KB, nation liobraru ogf the Nethlrands
-Lonks to WMC, Zenodo
+This overview was originally extracted from the slides of *Introduction Wikibase, the basics*, a lecture for employeees of [KB, national library of the Netherlands](https://www.kb.nl) on 7 September 2023. This slidedeck is availble on [Wikimedia Commons]() and [Zendo]() 
 
 This page is maintained by Olaf Janssen, Wikimedia coordinator of KB [Wikidata user page](https://www.wikidata.org/wiki/User:OlafJanssen) + [Expert page on kb.nl](https://www.kb.nl/over-ons/experts/olaf-janssen) 
 
