@@ -12,6 +12,9 @@ This page is maintained by Olaf Janssen, Wikimedia coordinator of KB [Wikidata u
 
 Latest update: 5-9-2023
 
+### Contents
+ - [Finding help](#finding-help)
+
 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 
 ### Requesting data from a Wikibase 
@@ -111,13 +114,13 @@ Wenen, 2023 https://wikibase-lex.sciencesconf.org/
 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 
-### How to stay updated on Wikibase?
+### Staying updated
 * Via de meetings, notulen, presentaties, mailinglijsten, socials etc. van de WBCUG, WBSG en WBGNL. – zie overzicht hiervoor.
 * Wikibase.cloud: - Project updates Wikibase.cloud: https://meta.wikimedia.org/wiki/Wikibase/Wikibase.cloud- Mailing list Wikibase.cloud:  https://lists.wikimedia.org/postorius/lists/wikibase-cloud.lists.wikimedia.org
 * Specifiek voor bibliotheken:- Wikibase Working Hours - Community discussion of Wikidata & Wikibase with the goal of understanding how the library can contribute to and leverage these as a platform for publishing, linking, and enriching library linked data - https://www.wikidata.org/wiki/Wikidata:WikiProject_LD4_Wikidata_Affinity_Group/Wikibase_Working_Hours- IFLA Wikidata Working Group - This working group will explore and advocate for the use of and contribution to Wikidata by library and information professionals, the integration of Wikidata and Wikibase with library systems, and alignment of the Wikidata ontology with library metadata formats such as BIBFRAME, RDA, and MARC - https://mail.iflalists.org/wws/info/wikidatawg  
 * More: Wikidata Weekly Summary, bevat ook WB updates! https://www.wikidata.org/wiki/Wikidata:Status_updates  + https://www.wikidata.org/wiki/Topic:Xks1m3byqvkjdhz1  +  https://www.wikidata.org/wiki/Wikidata:Status_updates/2023_06_26- Wikibase yearly summaries (Envel Le Hir): https://www.lehir.net/wikibase-yearly-summary-2022/ (2021, 2020)- Blog Addshore, over Wikibase: https://addshore.com/?s=wikibase 
 
-### Where/how to find help?
+### Finding help
 * Active help (by humans) 
   - Help by community: use all community channels above.
   - Tip: Use the Telegram channels if you want help quickly
