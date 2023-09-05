@@ -8,9 +8,10 @@
 
 This overview was originally extracted from the slides of *Introduction Wikibase, the basics*, a lecture for employeees of [KB, national library of the Netherlands](https://www.kb.nl) on 7 September 2023. This slidedeck is availble on [Wikimedia Commons]() and [Zendo]() 
 
-This page is maintained by Olaf Janssen, Wikimedia coordinator of KB [Wikidata user page](https://www.wikidata.org/wiki/User:OlafJanssen) + [Expert page on kb.nl](https://www.kb.nl/over-ons/experts/olaf-janssen) 
+This page is maintained by Olaf Janssen, Wikimedia coordinator of KB. See his [Wikidata user page](https://www.wikidata.org/wiki/User:OlafJanssen) and [expert page on kb.nl](https://www.kb.nl/over-ons/experts/olaf-janssen) for contact details.
 
-Latest update: 5-9-2023
+Latest update: 5 September 2023
+<hr>
 
 ### Contents
   * [Requesting data from a Wikibase](#requesting-data-from-a-Wikibase)
@@ -18,7 +19,6 @@ Latest update: 5-9-2023
   * [Wikibase community](#wikibase-community)
   * [Staying updated](#staying-updated)
   * [Finding help](#finding-help)
-
 <hr>
 
 ### Requesting data from a Wikibase 
@@ -56,30 +56,31 @@ Useful links:
 * https://github.com/shigapov/wikibase-knowledge-graphs#data-import
 * https://www.wikibase.consulting/fast-bulk-import-into-wikibase/ 
 
-#### 1) Nieuw item handmatig toevoegen via GUI
-O.b.v. KB sandbox WB: https://kbtestwikibase.wikibase.cloud/wiki/Main_Page
-https://kbtestwikibase.wikibase.cloud/wiki/Special:NewItem  H.H. ter Balkt https://kbtestwikibase.wikibase.cloud/wiki/Item:Q32   
+#### 1) Add a new item via the GUI
+Using [KB's sandbox WB](https://kbtestwikibase.wikibase.cloud/wiki/Main_Page) (if logged in) we can create a [NewItem](https://kbtestwikibase.wikibase.cloud/wiki/Special:NewItem), resulting into an item about the Dutch poet [H.H. ter Balkt](https://kbtestwikibase.wikibase.cloud/wiki/Item:Q32)  
 
 #### 2) OpenRefine (in bulk)
-OpenRefine is a well-known tool for editing, enriching and manipulating data. It is widely used to add data to Wikidata and other Wikibase instances.
-OpenRefine-Wikidata workshop, KB, 4-7-2023: https://github.com/KBNLwikimedia/OpenRefine-Introduction-Workshop + https://zenodo.org/record/8207914
-Winnaars Halewijn literatuurprijs- Scenario 1 : We willen kijken of deze namen in bepaalde Wikibases voorkomen (reconciliatie). Reconciliatie services van Wikidata, FactGrid, Kunstmuseum en de KB- Scenario 2: We willen (nieuwe, verrijkte, verbeterde) data wegschrijven in (bv.) de KB Wikibase - Koppel OpenRefine aan de KB-Wikibase 
-Hoe werken deze scenario's precies? - https://en.wikiversity.org/wiki/OpenRefine_to_Wikibase:_Data_Upload_Pipeline- https://docs.openrefine.org/manual/wikibase/configuration + https://docs.openrefine.org/manual/wikibase/reconciling + https://openrefine.org/docs/manual/wikibase/uploading- https://github.com/KBNLresearch/OpenRefine-Wikibase
+* OpenRefine is a well-known tool for editing, enriching and manipulating data. It is widely used to add data to Wikidata and other Wikibase instances.
+* OpenRefine-Wikidata workshop, KB, 4-7-2023: https://github.com/KBNLwikimedia/OpenRefine-Introduction-Workshop + https://zenodo.org/record/8207914
+* Winnaars Halewijn literatuurprijs- Scenario 1 : We willen kijken of deze namen in bepaalde Wikibases voorkomen (reconciliatie). Reconciliatie services van Wikidata, FactGrid, Kunstmuseum en de KB- Scenario 2: We willen (nieuwe, verrijkte, verbeterde) data wegschrijven in (bv.) de KB Wikibase - Koppel OpenRefine aan de KB-Wikibase 
+* Hoe werken deze scenario's precies? - https://en.wikiversity.org/wiki/OpenRefine_to_Wikibase:_Data_Upload_Pipeline- https://docs.openrefine.org/manual/wikibase/configuration + https://docs.openrefine.org/manual/wikibase/reconciling + https://openrefine.org/docs/manual/wikibase/uploading- https://github.com/KBNLresearch/OpenRefine-Wikibase
 
 #### 3) QuickStatements (in bulk)
-: “Van (geformateerde) .txt of .csv naar Wikibase”: https://meta.wikimedia.org/wiki/QuickStatements + https://kbtestwikibase.wikibase.cloud/tools/quickstatements/#/batch + https://www.wikidata.org/wiki/Help:QuickStatements   
+* "From formatted .txt or .csv to Wikibase"
+* https://meta.wikimedia.org/wiki/QuickStatements + [help](https://www.wikidata.org/wiki/Help:QuickStatements)
+* [QuickStatements interface in KB sandbox WB](https://kbtestwikibase.wikibase.cloud/tools/quickstatements/#/batch)
 
-#### 4) Geavanceerde data import tools
-* [WikibaseImport, a MediaWiki extension: https://github.com/Wikidata/WikibaseImport  
-* [WikibaseIntegrator, a Python library: https://github.com/LeMyst/WikibaseIntegrator  + https://pypi.org/project/wikibaseintegrator/0.11.2/  
-* [WikidataIntegrator, a Python library: https://github.com/SuLab/WikidataIntegrator  + https://zenodo.org/record/8004921  
-* [WikibaseSync, a Python library: https://github.com/the-qa-company/WikibaseSync  +  https://wikibase.the-qa-company.com/wiki/WikibaseSync_-_Tutorial 
-* [wikibase-edit, a NodeJS library: https://github.com/maxlath/wikibase-edit  + https://github.com/maxlath/wikibase-edit/blob/master/docs/how_to.md 
-* [wikibase-cli, a command-line interface: https://github.com/maxlath/wikibase-cli  
-* [VanDerBot, a Python application: https://heardlibrary.github.io/digital-scholarship/lod/wikibase/load/  + https://github.com/HeardLibrary/linked-data/tree/master/vanderbot 
-* [Pywikibot, a Python library : https://www.mediawiki.org/wiki/Manual:Pywikibot  + https://github.com/wikimedia/pywikibot + https://doc.wikimedia.org/pywikibot/stable/scripts/wikibase.html  
-* [RaiseWikibase, a Python tool: https://github.com/UB-Mannheim/RaiseWikibase 
-* [Wikidata-Toolkit, a Java library: https://www.mediawiki.org/wiki/Wikidata_Toolkit + https://github.com/Wikidata/Wikidata-Toolkit  
+#### 4) Advanced data import tools
+* [WikibaseImport](https://github.com/Wikidata/WikibaseImport), a MediaWiki extension   
+* [WikibaseIntegrator](https://github.com/LeMyst/WikibaseIntegrator), a Python library ([docs](https://pypi.org/project/wikibaseintegrator/0.11.2/))  
+* [WikidataIntegrator](https://github.com/SuLab/WikidataIntegrator), a Python library ([Zenodo](https://zenodo.org/record/8004921))  
+* [WikibaseSync](https://github.com/the-qa-company/WikibaseSync), a Python library ([Tutorial](https://wikibase.the-qa-company.com/wiki/WikibaseSync_-_Tutorial)) 
+* [wikibase-edit](https://github.com/maxlath/wikibase-edit), a NodeJS library ([Howto](https://github.com/maxlath/wikibase-edit/blob/master/docs/how_to.md)) 
+* [wikibase-cli](https://github.com/maxlath/wikibase-cli), a command-line interface   
+* [VanDerBot](https://heardlibrary.github.io/digital-scholarship/lod/wikibase/load/), a Python application ([Github](https://github.com/HeardLibrary/linked-data/tree/master/vanderbot)) 
+* [Pywikibot](https://www.mediawiki.org/wiki/Manual:Pywikibot), a Python library ([Github](https://github.com/wikimedia/pywikibot), [Wikibase scripts](https://doc.wikimedia.org/pywikibot/stable/scripts/wikibase.html))  
+* [RaiseWikibase](https://github.com/UB-Mannheim/RaiseWikibase), a Python tool 
+* [Wikidata-Toolkit](https://www.mediawiki.org/wiki/Wikidata_Toolkit), a Java library ([Github](https://github.com/Wikidata/Wikidata-Toolkit))  
 
 <hr>
 
