@@ -41,12 +41,11 @@ XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 * EU Knowlegde Graph: [Buildings of the EU](https://tinyurl.com/242a3rrh) 
 * KB Wikibase: [Medieval manuscripts of the KB](https://tinyurl.com/2bxb8hkn )  
 
-XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
-XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
-
-### Hoe voeg je data toe aan een Wikibase? 
-
-Nuttige links: https://www.mediawiki.org/wiki/Wikibase/Importing + https://github.com/shigapov/wikibase-knowledge-graphs#data-import + https://www.wikibase.consulting/fast-bulk-import-into-wikibase/ 
+### Adding data to a Wikibase 
+Useful links: 
+* https://www.mediawiki.org/wiki/Wikibase/Importing
+* https://github.com/shigapov/wikibase-knowledge-graphs#data-import
+* https://www.wikibase.consulting/fast-bulk-import-into-wikibase/ 
 
 #### 1) Nieuw item handmatig toevoegen via GUI
 O.b.v. KB sandbox WB: https://kbtestwikibase.wikibase.cloud/wiki/Main_Page
@@ -62,16 +61,16 @@ Hoe werken deze scenario's precies? - https://en.wikiversity.org/wiki/OpenRefin
 : “Van (geformateerde) .txt of .csv naar Wikibase”: https://meta.wikimedia.org/wiki/QuickStatements + https://kbtestwikibase.wikibase.cloud/tools/quickstatements/#/batch + https://www.wikidata.org/wiki/Help:QuickStatements   
 
 #### 4) Geavanceerde data import tools
-WikibaseImport, a MediaWiki extension: https://github.com/Wikidata/WikibaseImport  
-WikibaseIntegrator, a Python library: https://github.com/LeMyst/WikibaseIntegrator  + https://pypi.org/project/wikibaseintegrator/0.11.2/  
-WikidataIntegrator, a Python library: https://github.com/SuLab/WikidataIntegrator  + https://zenodo.org/record/8004921  
-WikibaseSync, a Python library: https://github.com/the-qa-company/WikibaseSync  +  https://wikibase.the-qa-company.com/wiki/WikibaseSync_-_Tutorial 
-wikibase-edit, a NodeJS library: https://github.com/maxlath/wikibase-edit  + https://github.com/maxlath/wikibase-edit/blob/master/docs/how_to.md 
-wikibase-cli, a command-line interface: https://github.com/maxlath/wikibase-cli  
-VanDerBot, a Python application: https://heardlibrary.github.io/digital-scholarship/lod/wikibase/load/  + https://github.com/HeardLibrary/linked-data/tree/master/vanderbot 
-Pywikibot, a Python library : https://www.mediawiki.org/wiki/Manual:Pywikibot  + https://github.com/wikimedia/pywikibot + https://doc.wikimedia.org/pywikibot/stable/scripts/wikibase.html  
-RaiseWikibase, a Python tool: https://github.com/UB-Mannheim/RaiseWikibase 
-Wikidata-Toolkit, a Java library: https://www.mediawiki.org/wiki/Wikidata_Toolkit + https://github.com/Wikidata/Wikidata-Toolkit  
+* [WikibaseImport, a MediaWiki extension: https://github.com/Wikidata/WikibaseImport  
+* [WikibaseIntegrator, a Python library: https://github.com/LeMyst/WikibaseIntegrator  + https://pypi.org/project/wikibaseintegrator/0.11.2/  
+* [WikidataIntegrator, a Python library: https://github.com/SuLab/WikidataIntegrator  + https://zenodo.org/record/8004921  
+* [WikibaseSync, a Python library: https://github.com/the-qa-company/WikibaseSync  +  https://wikibase.the-qa-company.com/wiki/WikibaseSync_-_Tutorial 
+* [wikibase-edit, a NodeJS library: https://github.com/maxlath/wikibase-edit  + https://github.com/maxlath/wikibase-edit/blob/master/docs/how_to.md 
+* [wikibase-cli, a command-line interface: https://github.com/maxlath/wikibase-cli  
+* [VanDerBot, a Python application: https://heardlibrary.github.io/digital-scholarship/lod/wikibase/load/  + https://github.com/HeardLibrary/linked-data/tree/master/vanderbot 
+* [Pywikibot, a Python library : https://www.mediawiki.org/wiki/Manual:Pywikibot  + https://github.com/wikimedia/pywikibot + https://doc.wikimedia.org/pywikibot/stable/scripts/wikibase.html  
+* [RaiseWikibase, a Python tool: https://github.com/UB-Mannheim/RaiseWikibase 
+* [Wikidata-Toolkit, a Java library: https://www.mediawiki.org/wiki/Wikidata_Toolkit + https://github.com/Wikidata/Wikidata-Toolkit  
 
 
 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
