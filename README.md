@@ -6,11 +6,13 @@
 # Wikibase resources
 *A collection of resources, overviews, links and knowlegde related to Wikibase, collected and curated by KB, national library of the Netherlands.*
 
-This overview was originally extracted from the slides of the lecture *Introduction Wikibase, the basics*, for employeees of [KB, national library of the Netherlands](https://www.kb.nl) on 7 September 2023. This slidedeck is availble on [Wikimedia Commons]() and [Zendo]() 
+This overview was originally extracted from the slides of the lecture *Introduction Wikibase, the basics*, for employeees of [KB, national library of the Netherlands](https://www.kb.nl) on 7 September 2023. This slidedeck is availble on [Wikimedia Commons]() and [Zendo]()
+
+This overview is heavily inspired by the *[Wikibase knowledge graphs, A collection of open source tools and resources related to Wikibase knowledge graphs](https://github.com/shigapov/wikibase-knowledge-graphs)* by Renat Shigapov. I've used this overview many times to improve my understanding of the Wikibase universe, and hope to extend it via the overview below, and help others in a similar way.
 
 This page is maintained by Olaf Janssen, Wikimedia coordinator of KB. See his [Wikidata user page](https://www.wikidata.org/wiki/User:OlafJanssen) and [expert page on kb.nl](https://www.kb.nl/over-ons/experts/olaf-janssen) for contact details.
 
-Latest update: 5 September 2023
+Latest update: 6 September 2023
 <hr>
 
 ### Contents
