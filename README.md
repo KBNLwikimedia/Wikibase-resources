@@ -102,7 +102,7 @@ Using [KB's sandbox WB](https://kbtestwikibase.wikibase.cloud/wiki/Main_Page) (i
 #### 1) Wikibase Community User Group (WBCUG)
 *Its mission is to cultivate Wikibase's development and to encourage like-minded developers and data analysts not only to improve Wikibase's existing tools but also to create new ones.* 
 
-[About the WBCUG](https://meta.wikimedia.org/wiki/Wikibase_Community_User_Group) - [WBCUG history](https://www.lehir.net/a-short-history-of-the-wikibase-community-user-group/) - [WBCUG members](https://meta.wikimedia.org/wiki/Wikibase_Community_User_Group) - [WBCUG monthly online meetings - The Wikibase Live sessions](https://meta.wikimedia.org/wiki/Category:Wikibase_Community_User_Group/Meetings) - [WBCUG Mailing list](https://lists.wikimedia.org/postorius/lists/wikibaseug.lists.wikimedia.org) - [WBCUG Telegram](https://t.me/+WBsf9-C9KPuMZCDT) (or [here](https://t.me/joinchat/HGjGexZ9NE7BwpXzMsoDLA))  
+[About the WBCUG](https://meta.wikimedia.org/wiki/Wikibase_Community_User_Group) - [WBCUG history](https://www.lehir.net/a-short-history-of-the-wikibase-community-user-group/) - [WBCUG members](https://meta.wikimedia.org/wiki/Wikibase_Community_User_Group) - [WBCUG monthly online meetings - The Wikibase Live sessions](https://meta.wikimedia.org/wiki/Category:Wikibase_Community_User_Group/Meetings) - [WBCUG Mailing list](https://lists.wikimedia.org/postorius/lists/wikibaseug.lists.wikimedia.org) ([archives](https://lists.wikimedia.org/hyperkitty/list/wikibaseug@lists.wikimedia.org/)) - [WBCUG Telegram](https://t.me/+WBsf9-C9KPuMZCDT) (or [here](https://t.me/joinchat/HGjGexZ9NE7BwpXzMsoDLA))  
 	
 #### 2) Wikibase Stakeholder Group (WBSG)
 *Commissions production and maintenance of open source extensions to Wikibase, and documentation for institutions that want to operate and maintain a fully-fledged instance of Wikibase. The group will focus on extensions to Wikibase instead of contributing to Wikibase core.*
@@ -130,10 +130,15 @@ Using [KB's sandbox WB](https://kbtestwikibase.wikibase.cloud/wiki/Main_Page) (i
 <hr>
 
 ### Staying updated
-* Via de meetings, notulen, presentaties, mailinglijsten, socials etc. van de WBCUG, WBSG en WBGNL. – zie overzicht hiervoor.
-* Wikibase.cloud: - Project updates Wikibase.cloud: https://meta.wikimedia.org/wiki/Wikibase/Wikibase.cloud- Mailing list Wikibase.cloud:  https://lists.wikimedia.org/postorius/lists/wikibase-cloud.lists.wikimedia.org
-* Specifiek voor bibliotheken:- Wikibase Working Hours - Community discussion of Wikidata & Wikibase with the goal of understanding how the library can contribute to and leverage these as a platform for publishing, linking, and enriching library linked data - https://www.wikidata.org/wiki/Wikidata:WikiProject_LD4_Wikidata_Affinity_Group/Wikibase_Working_Hours- IFLA Wikidata Working Group - This working group will explore and advocate for the use of and contribution to Wikidata by library and information professionals, the integration of Wikidata and Wikibase with library systems, and alignment of the Wikidata ontology with library metadata formats such as BIBFRAME, RDA, and MARC - https://mail.iflalists.org/wws/info/wikidatawg  
-* More: Wikidata Weekly Summary, bevat ook WB updates! https://www.wikidata.org/wiki/Wikidata:Status_updates  + https://www.wikidata.org/wiki/Topic:Xks1m3byqvkjdhz1  +  https://www.wikidata.org/wiki/Wikidata:Status_updates/2023_06_26- Wikibase yearly summaries (Envel Le Hir): https://www.lehir.net/wikibase-yearly-summary-2022/ (2021, 2020)- Blog Addshore, over Wikibase: https://addshore.com/?s=wikibase 
+* Via the meetings, minutes, presentations, mailing lists, socials etc. of the WBCUG, WBSG and WBGNL. See above.
+* Wikibase.cloud: [Project updates](https://meta.wikimedia.org/wiki/Wikibase/Wikibase.cloud) - [Mailing list](https://lists.wikimedia.org/postorius/lists/wikibase-cloud.lists.wikimedia.org) ([archives](https://lists.wikimedia.org/hyperkitty/list/wikibase-cloud@lists.wikimedia.org/)) - [Telegram](https://t.me/joinchat/FgqAnxNQYOeAKmyZTIId9g)
+* Specifically for libraries:
+  - [Wikibase Working Hours](https://www.wikidata.org/wiki/Wikidata:WikiProject_LD4_Wikidata_Affinity_Group/Wikibase_Working_Hours), *community discussion of Wikidata & Wikibase with the goal of understanding how the library can contribute to and leverage these as a platform for publishing, linking, and enriching library linked data.*
+  - [IFLA Wikidata Working Group](https://mail.iflalists.org/wws/info/wikidatawg ). *This working group will explore and advocate for the use of and contribution to Wikidata by library and information professionals, the integration of Wikidata and Wikibase with library systems, and alignment of the Wikidata ontology with library metadata formats such as BIBFRAME, RDA, and MARC.*  
+* More:
+  - [Wikidata Weekly Summary]( https://www.wikidata.org/wiki/Wikidata:Status_updates), also containing WB updates!
+  - Wikibase yearly summaries by Envel Le Hir: [2022](https://www.lehir.net/wikibase-yearly-summary-2022), [2021](https://www.lehir.net/wikibase-yearly-summary-2021) and [2020](https://www.lehir.net/wikibase-yearly-summary-2020)
+  - [Blog by Addshore](https://addshore.com/?s=wikibase), on Wikibase 
 
 <hr>
 
@@ -144,12 +149,12 @@ Using [KB's sandbox WB](https://kbtestwikibase.wikibase.cloud/wiki/Main_Page) (i
 * Help by Olaf Janssen: [Wikidata user page](https://www.wikidata.org/wiki/User:OlafJanssen) + [Expert page on kb.nl](https://www.kb.nl/over-ons/experts/olaf-janssen)   
 
 #### Passive help (documentation, manuals, HOWTOs, tutorials etc). 
-* Wikibase documentatie portal (WMDE): https://www.mediawiki.org/wiki/Wikibase + https://www.mediawiki.org/wiki/Wikibase/Using_Wikibase  
-* Wikibase technische documentatie (low-level): https://doc.wikimedia.org/Wikibase/master/php
-* Wikibase.cloud documentation portal (WMDE):  https://www.mediawiki.org/wiki/Wikibase/Wikibase.cloud + https://phabricator.wikimedia.org/tag/wikibase.cloud/ (WB.cloud issue tracker)
+* [Wikibase documentation portal (WMDE)](https://www.mediawiki.org/wiki/Wikibase) + [here](https://www.mediawiki.org/wiki/Wikibase/Using_Wikibase)  
+* [Low-level Wikibase technical documentation]( https://doc.wikimedia.org/Wikibase/master/php)
+* [Wikibase.cloud documentation portal (WMDE)]( https://www.mediawiki.org/wiki/Wikibase/Wikibase.cloud) + [WB.cloud issue tracker](https://phabricator.wikimedia.org/tag/wikibase.cloud)
 
 #### More help
-* [Learning Wikibase](https://learningwikibase.com), a place to learn and share online resources (e.g. articles, videos, workflows, FAQ’s) that make it easier to install, maintain or customize your Wikibase instance. - 
+* [Learning Wikibase](https://learningwikibase.com), a place to learn and share online resources (e.g. articles, videos, workflows, FAQ’s) that make it easier to install, maintain or customize your Wikibase instance. 
 * Tip!! [Wikibase resources overview](https://github.com/shigapov/wikibase-knowledge-graphs) by Renat Shigapov 
 * [UCLA Library Research Guide on Wikibase and Wikidata](https://guides.library.ucla.edu/semantic-web/wikidata#s-lg-page-section-6895500)  
 * [Awesome Wikibase tutorials](https://github.com/shigapov/wikibase-knowledge-graphs#awesome-wikibase-tutorials) collected by Renat Shigapov. 
