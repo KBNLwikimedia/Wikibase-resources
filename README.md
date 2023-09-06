@@ -14,7 +14,7 @@ This overview is heavily inspired by the *[Wikibase knowledge graphs, A collecti
 
 This page is maintained by Olaf Janssen, Wikimedia coordinator of KB. See his [Wikidata user page](https://www.wikidata.org/wiki/User:OlafJanssen) and [expert page on kb.nl](https://www.kb.nl/over-ons/experts/olaf-janssen) for contact details.
 
-Latest update: 6 September 2023
+Latest update: 7 September 2023
 <hr>
 
 ### Contents
