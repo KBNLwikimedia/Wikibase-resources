@@ -39,7 +39,7 @@ Latest update: 6 September 2023
     + [Staying updated](#staying-updated)
     + [Finding help](#finding-help)
       - [Active help (by humans)](#active-help--by-humans-)
-      - [Passive help (documentation, manuals, HOWTOs, tutorials etc).](#passive-help--documentation--manuals--howtos--tutorials-etc-)
+      - [Passive help (documentation, manuals, HOWTOs, tutorials etc.)](#passive-help--documentation--manuals--howtos--tutorials-etc-)
       - [More help](#more-help)
 
 <small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
@@ -176,12 +176,12 @@ Using [KB's sandbox WB](https://kbtestwikibase.wikibase.cloud/wiki/Main_Page) (l
 <hr>
 
 ### Finding help
-#### Active help (by humans) 
+#### Active help (by humans)
 * Help by community: use all community channels above.
 * Tip: Use the Telegram channels if you want help quickly
 * Help by Olaf Janssen: [Wikidata user page](https://www.wikidata.org/wiki/User:OlafJanssen) + [Expert page on kb.nl](https://www.kb.nl/over-ons/experts/olaf-janssen)   
 
-#### Passive help (documentation, manuals, HOWTOs, tutorials etc). 
+#### Passive help (documentation, manuals, HOWTOs, tutorials etc.)
 * [Wikibase documentation portal (WMDE)](https://www.mediawiki.org/wiki/Wikibase) + [here](https://www.mediawiki.org/wiki/Wikibase/Using_Wikibase)  
 * [Low-level Wikibase technical documentation]( https://doc.wikimedia.org/Wikibase/master/php)
 * [Wikibase.cloud documentation portal (WMDE)]( https://www.mediawiki.org/wiki/Wikibase/Wikibase.cloud) + [WB.cloud issue tracker](https://phabricator.wikimedia.org/tag/wikibase.cloud)
