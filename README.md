@@ -18,13 +18,33 @@ Latest update: 6 September 2023
 <hr>
 
 ### Contents
-  * [Wikibase hosting](#wikibase-hosting)
-  * [Requesting data from a Wikibase](#requesting-data-from-a-Wikibase)
-  * [Cool Wikibase SPARQL queries](#cool-wikibase-sparql-queries)
-  * [Adding data to a Wikibase](#adding-data-to-a-Wikibase)
-  * [Wikibase community](#wikibase-community)
-  * [Staying updated](#staying-updated)
-  * [Finding help](#finding-help)
+- [Wikibase resources](#wikibase-resources)
+    + [Contents](#contents)
+    + [Wikibase hosting](#wikibase-hosting)
+    + [Requesting data from a Wikibase](#requesting-data-from-a-wikibase)
+      - [1) HTML content in web browser](#1--html-content-in-web-browser)
+      - [2) Non-HTML content in web browser](#2--non-html-content-in-web-browser)
+      - [3) MediaWiki Action API](#3--mediawiki-action-api)
+      - [4) SPARQL](#4--sparql)
+    + [Cool Wikibase SPARQL queries](#cool-wikibase-sparql-queries)
+    + [Adding data to a Wikibase](#adding-data-to-a-wikibase)
+      - [1) Add a new item via the GUI](#1--add-a-new-item-via-the-gui)
+      - [2) OpenRefine (in bulk)](#2--openrefine--in-bulk-)
+      - [3) QuickStatements (in bulk)](#3--quickstatements--in-bulk-)
+      - [4) Advanced data import tools](#4--advanced-data-import-tools)
+    + [Wikibase community](#wikibase-community)
+      - [1) Wikibase Community User Group (WBCUG)](#1--wikibase-community-user-group--wbcug-)
+      - [2) Wikibase Stakeholder Group (WBSG)](#2--wikibase-stakeholder-group--wbsg-)
+      - [3) Wikibase Knowlegde Group Netherlands (WBGNL)](#3--wikibase-knowlegde-group-netherlands--wbgnl-)
+      - [4) Wikibase community workshops, trainings, meetups etc.](#4--wikibase-community-workshops--trainings--meetups-etc)
+    + [Staying updated](#staying-updated)
+    + [Finding help](#finding-help)
+      - [Active help (by humans)](#active-help--by-humans-)
+      - [Passive help (documentation, manuals, HOWTOs, tutorials etc).](#passive-help--documentation--manuals--howtos--tutorials-etc-)
+      - [More help](#more-help)
+
+<small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
+
 <hr>
 
 [History of Wikibase](https://addshore.com/2022/02/wikibase-a-history/) (until Febr 2022) ([archived version](https://web.archive.org/web/20230714110136/https://addshore.com/2022/02/wikibase-a-history/))
