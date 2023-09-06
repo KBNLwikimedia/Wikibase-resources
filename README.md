@@ -34,16 +34,7 @@ Latest update: 6 September 2023
 [History of Wikibase](https://addshore.com/2022/02/wikibase-a-history/) (until Febr 2022) ([archived version](https://web.archive.org/web/20230714110136/https://addshore.com/2022/02/wikibase-a-history/))
 
 <hr>
-Slides van dit verhaal beschikbaar via 
-Wikimedia Commons: 
-Zenodo:
 
-Doelen van dit verhaal: 
-Meer begrip van Wikibase bieden
-Enige zelfredzaamheid o.h.g.v. Wikibase bevorderen
-Kennisdossier over het Wikibase-landschap (naslagwerk)  https://github.com/KBNLwikimedia/Wikibase-resources 
-
-<hr>
 Opfrisser Wikidata
 Dit blok is een samenvatting van de presentatie Wegwijzer in Wikidata, Olaf Janssen, KB, 6 juni 2023
 https://commons.wikimedia.org/wiki/File:Wegwijzer_in_Wikidata,_Introductiecurus_Wikidata_-_Koninklijke_Bibliotheek,_6_juni_2023.pdf 
@@ -57,9 +48,6 @@ Gestructureerde beschrijvingen van dingen
 Centrale opslag (vs gedistribueerd – data silo’s)
 Meertalig (200+ talen) - Beschrijving van de Eiffeltoren - https://www.wikidata.org/wiki/Q243 (Nederlandstalige, Engelstalige, Portugese en Japanse interface)
 Linked data - Things, not strings - Geen platte tekst, maar klikbare links - Onderling verbonden: https://www.wikidata.org/wiki/Q243 (Eiffeltoren) en https://www.wikidata.org/wiki/Q20882 (Gustave Eiffel) - Verbonden met andere databases
- ![afbeelding](https://github.com/KBNLwikimedia/Wikibase-resources/assets/6546244/6aebafd1-99a1-40a0-a983-020912bed9ff)
-
-
 Open & vrij - Gratis, geen trackers, geen ads  - Geen auteurs- of databankrechten (CC0-licentie - https://creativecommons.org/publicdomain/zero/1.0/) - Iedereen mag data hergebruiken: bevragen, delen, kopiëren, bewerken, downloaden, verkopen etc. - Iedereen mag data bijdragen/bewerken toevoegen, verbeteren, verwijderen, samenvoegen etc. --> community
 Community -  Internationaal - 24K bewerkers - Onder de vlag van de Wikimedia Foundation  zusterproject van Wikipedia, Commons etc. 
 Voor mensen en machines - Mensleesbaar, mensschrijfbaar --> Data beschikbaar via GUIs in HTML, https://www.wikidata.org/wiki/Q1526131 (Koninklijke bibliotheek) - Machineleesbaar, machineschrijfbaar --> Data beschikbaar via APIs in JSON, XML/RDF, CSV etc.,     https://www.wikidata.org/w/api.php?action=wbgetentities&ids=Q1526131     https://www.wikidata.org/w/api.php?action=wbgetentities&ids=Q1526131&props=labels&format=xml 
@@ -78,8 +66,6 @@ Openbaar
   - Openbare gegevens
   - Geen auteursrechten
   - Geen privacygevoeligheden (meer info)
-![afbeelding](https://github.com/KBNLwikimedia/Wikibase-resources/assets/6546244/50d3c795-1085-4bf4-b6c3-4ab7e9277697)
-
 
 <hr>
 Wensen van erfgoedinstellingen waarvoor Wikidata niet geschikt is
@@ -115,7 +101,6 @@ Zoeken via SPARQL
 MediaWiki API
 Ondersteuning voor tools (o.a. OpenRefine)
 Documentatie
-![afbeelding](https://github.com/KBNLwikimedia/Wikibase-resources/assets/6546244/9e3fba73-61cc-4a1a-8a07-2a6238185110)
 
 <hr>
 Wikibase website:  https://wikiba.se/
@@ -146,7 +131,7 @@ Wikidata: https://www.wikidata.org/wiki/Wikidata:Main_Page
 		
 6) EU Knowlegde Graph: https://linkedopendata.eu/wiki/The_EU_Knowledge_GraphContains information about 1.9M projects financed by the EU and 700K beneficiaries of European projects - https://hal.archives-ouvertes.fr/hal-03353225/document + https://www.youtube.com/watch?v=PyBWo-ka9JU 
 	Kohesio website: https://kohesio.ec.europa.eu - Frontend voor EU Knowledge Graphhttps://www.wikimedia.de/presse/european-commission-goes-open-source-new-project-kohesio-uses-wikimedias-software-wikibase/ 
-	Verken bv EU-projecten in je buurt - 1.259 EU-projecten in Zuid-Holland - https://kohesio.ec.europa.eu/nl/?kaart%20regio=Nederland,Zuid-Holland,Q3119#mijn%20regio   ![afbeelding](https://github.com/KBNLwikimedia/Wikibase-resources/assets/6546244/7220b4f2-3d03-48a0-afc6-fb7cf043e485)
+	Verken bv EU-projecten in je buurt - 1.259 EU-projecten in Zuid-Holland - https://kohesio.ec.europa.eu/nl/?kaart%20regio=Nederland,Zuid-Holland,Q3119#mijn%20regio 
 
 7) Kunstmuseum API: https://api.kunstmuseum.nl/wiki/Kunstmuseum_APIWikibase om data voor websites Delftsaardewerk.nl, Van Gogh Worldwide en Aziatisch keramiek vanuit verschillende musea te importeren en te leveren via een centrale API.
 	Delftsaardewerk.nl, Collectie Kunstmuseum Den Haag, object 0400098: https://delftsaardewerk.nl/bekijken/voorwerp/gemeentemuseum-den-haag/400098  + https://api.kunstmuseum.nl/wiki/Item:Q2559  
@@ -173,8 +158,6 @@ DNB, GND meets Wikibase:  https://wiki.dnb.de/pages/viewpage.action?pageId=14775
 DBN/BnF:  Wikibase for Cultural Heritage and Academia, Perceived pros and cons of Wikibase as a solution - https://joinup.ec.europa.eu/sites/default/files/custom-page/attachment/2020-11/Parallel-track-4_B-Fischer_J-Thill_A-Angjeli%20final%20ppt.pdf
 TIB/NFDI (Duitsland): Examining Wikidata and Wikibase in the context of research data management applications: https://blogs.tib.eu/wp/tib/2022/03/16/examining-wikidata-and-wikibase-in-the-context-of-research-data-management-applicationshttps://www.youtube.com/watch?v=RPMkuDxHJtIWikidata and Wikibase as complementary research services for cultural heritage data: https://blogs.tib.eu/wp/tib/2022/03/17/wikidata-and-wikibase-as-complementary-research-services-for-cultural-heritage-data/
 TIB/NFDI (Duitsland): https://zenodo.org/record/7738424 + http://docs.google.com/spreadsheets/d/1FNU8857JwUNFXmXAW16lgpjLq5TkgBUuafqZF-yo8_I/edit?usp=share_link    
-![afbeelding](https://github.com/KBNLwikimedia/Wikibase-resources/assets/6546244/f3d35590-4470-4269-9dd0-ffd53aaae3bd)
-
 
 <hr>
 
@@ -196,8 +179,6 @@ In hoeverre kun je andere (door de KB gebruikte) datamodellen (RDA, schema.org) 
 Literatuur over beperkingen datamodel Wikibase - https://wikidataworkshop.github.io/2022/papers/Wikidata_Workshop_2022_paper_9774.pdf - Wikidata’22: Wikidata workshop at ISWC 2022 - daniil.dobriy@wu.ac.at (D.Dobriy); axel.polleres@wu.ac.at (A. Polleres) - CC BY 4.0 – CEUR Workshop Proceedings, http://ceur-ws.org, ISSN 1613-0073- Diefenbach et al (2021), “Wikibase as an Infrastructure for Knowledge Graphs: the EU Knowledge Graph” - https://hal.science/hal-03353225/document- Bergamin, G. (2022). Wikibase, or The search for the unicorn. JLIS.It, 13(3), 49–62. https://doi.org/10.36253/jlis.it-484
 Oplossingsrichting door National Library of Greece (NLG)- http://www.rda-rsc.org/sites/all/files/NLG_Wikibase.pdf - https://www.youtube.com/watch?v=TPIS11QK8jI  - Samenvatting door Marieke Moolenaar (KB), interne email, 21-8-2023
 Analyse door Marieke Moolenaar: https://plein.kb.nl/thoughts/25980  + https://github.com/schemaorg/schemaorg/wiki/BlazeGraphSPARQLHowto   
-![afbeelding](https://github.com/KBNLwikimedia/Wikibase-resources/assets/6546244/cb8b464a-e4d4-40b4-b061-6b77ed6daed2)
-
 
 <hr>
 
