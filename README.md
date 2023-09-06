@@ -18,8 +18,9 @@ Latest update: 6 September 2023
 <hr>
 
 ### Contents
+  * [Wikibase hosting](#wikibase-hosting)
   * [Requesting data from a Wikibase](#requesting-data-from-a-Wikibase)
-  * [Cool Wikibase SPARQL queries ](#cool-wikibase-sparql-queries)
+  * [Cool Wikibase SPARQL queries](#cool-wikibase-sparql-queries)
   * [Adding data to a Wikibase](#adding-data-to-a-Wikibase)
   * [Wikibase community](#wikibase-community)
   * [Staying updated](#staying-updated)
@@ -27,6 +28,19 @@ Latest update: 6 September 2023
 <hr>
 
 [History of Wikibase](https://addshore.com/2022/02/wikibase-a-history/) (until Febr 2022) ([archived version](https://web.archive.org/web/20230714110136/https://addshore.com/2022/02/wikibase-a-history/))
+
+<hr>
+
+### Wikibase hosting
+* [Which Wikibase should I choose?](https://www.mediawiki.org/wiki/Wikibase/Which) 
+* [Wikibase Suite](https://www.mediawiki.org/wiki/Wikibase/Suite) and [Wikibase Docker](https://www.mediawiki.org/wiki/Wikibase/Docker) - software that you install and run on your own hardware (typically via Docker). Good for users who want to try out Wikibase on their own hardware and who want to customize their installation. Good for institutions with large datasets.
+* [Wikibase.cloud](https://www.wikibase.cloud) (Still in closed beta) - free “Wikibase as a service” platform  to create Wikibases quickly and easily managed and maintained by Wikimedia Deutschland.
+  - [KB’s sandbox WB instance on Wikibase.cloud](https://kbtestwikibase.wikibase.cloud/wiki/Main_Page)
+  - [KB's experiences and first impressions](https://commons.wikimedia.org/wiki/File:KB_Wikibase.cloud_Unboxing_Experience,_Netherlands_Wikibase_Knowlegde_Group,_22-07-2022.pdf) with unboxing, setting up, configuring and tweaking their Wikibase.cloud instance. ([See also here](https://kbtestwikibase.wikibase.cloud/wiki/Main_Page#Our_Wikibase.cloud_unboxing_experience_and_first_findings))
+* [Free Wikibase hosting @ Miraheze](https://meta.miraheze.org/wiki/Miraheze)
+* [Commercial hosting & services](https://meta.wikimedia.org/wiki/Wikibase/Consultants_and_Support_Providers) 
+
+<hr>
 
 ### Requesting data from a Wikibase 
 
@@ -68,21 +82,21 @@ Useful links:
 * https://www.wikibase.consulting/fast-bulk-import-into-wikibase/ 
 
 #### 1) Add a new item via the GUI
-Using [KB's sandbox WB](https://kbtestwikibase.wikibase.cloud/wiki/Main_Page) (if logged in) we can create a [NewItem](https://kbtestwikibase.wikibase.cloud/wiki/Special:NewItem), resulting into an item about the Dutch poet [H.H. ter Balkt](https://kbtestwikibase.wikibase.cloud/wiki/Item:Q32)  
+Using [KB's sandbox WB](https://kbtestwikibase.wikibase.cloud/wiki/Main_Page) (login required) we can create a [NewItem](https://kbtestwikibase.wikibase.cloud/wiki/Special:NewItem), resulting into an item about the Dutch poet [H.H. ter Balkt](https://kbtestwikibase.wikibase.cloud/wiki/Item:Q32)  
 
 #### 2) OpenRefine (in bulk)
-* OpenRefine is a well-known tool for editing, enriching and manipulating data. It is widely used to add data to Wikidata and other Wikibase instances.
-* OpenRefine-Wikidata workshop, KB, 4-7-2023: [](https://github.com/KBNLwikimedia/OpenRefine-Introduction-Workshop) + (https://zenodo.org/record/8207914)
-* Winnaars Halewijn literatuurprijs-
-* Scenario 1 : We willen kijken of deze namen in bepaalde Wikibases voorkomen (reconciliatie). Reconciliatie API endpoints of [Wikidata](), [FactGrid](), [Kunstmuseum]() en [KB]()
-* Scenario 2: We willen (nieuwe, verrijkte, verbeterde) data wegschrijven in (bv.) de KB Wikibase - Koppel OpenRefine aan de KB-Wikibase. OpenRefine manifests (json) of [Wikidata](), [FactGrid](), [Kunstmuseum]() en [KB]()
-* 
-* Hoe werken deze scenario's precies? - https://en.wikiversity.org/wiki/OpenRefine_to_Wikibase:_Data_Upload_Pipeline- https://docs.openrefine.org/manual/wikibase/configuration + https://docs.openrefine.org/manual/wikibase/reconciling + https://openrefine.org/docs/manual/wikibase/uploading- https://github.com/KBNLresearch/OpenRefine-Wikibase
+* OpenRefine is a well-known tool for editing, enriching and manipulating data. It is widely used to add data to Wikidata and other Wikibase instances.
+* [OpenRefine-Wikidata introduction workshop](https://github.com/KBNLwikimedia/OpenRefine-Introduction-Workshop), KB, 4-7-2023 (also on [Zenodo](https://zenodo.org/record/8207914))
+* Documentation: [Connecting OpenRefine to a Wikibase instance](https://docs.openrefine.org/manual/wikibase/configuration), [Reconciling with Wikibase](https://docs.openrefine.org/manual/wikibase/reconciling) and [Uploading edits to Wikibase](https://openrefine.org/docs/manual/wikibase/uploading)
+* Wikibase reconcilation services: [Wikidata](https://wikidata.reconci.link/en/api), [FactGrid](https://database.factgrid.de/reconcile/en/api), [Kunstmuseum](https://reconciliation.kunstmuseum.nl/nl/api) and [more](https://reconciliation-api.github.io/testbench/#/)
+* Connecting OpenRefine to a Wikibase via a manifests.json file: [Wikidata](https://raw.githubusercontent.com/OpenRefine/wikibase-manifests/master/wikidata-manifest.json), [FactGrid](https://github.com/OpenRefine/wikibase-manifests/blob/master/factgrid-manifest.json), [Kunstmuseum](https://api.kunstmuseum.nl/wiki/Kunstmuseum_API#Reconciliation) and [more](https://github.com/OpenRefine/wikibase-manifests)
+* Files for [interaction between OpenRefine and KB Wikibases](https://github.com/KBNLresearch/OpenRefine-Wikibase), for reconciling and uploading data to Wikibases of the KB, using Openfine
+* [OpenRefine to Wikibase: Data Upload Pipeline](https://en.wikiversity.org/wiki/OpenRefine_to_Wikibase:_Data_Upload_Pipeline)
 
 #### 3) QuickStatements (in bulk)
 * "From formatted .txt or .csv to Wikibase"
-* https://meta.wikimedia.org/wiki/QuickStatements + [help](https://www.wikidata.org/wiki/Help:QuickStatements)
-* [QuickStatements interface in KB sandbox WB](https://kbtestwikibase.wikibase.cloud/tools/quickstatements/#/batch)
+* [QuickStatements tool](https://meta.wikimedia.org/wiki/QuickStatements) + [help](https://www.wikidata.org/wiki/Help:QuickStatements)
+* [QuickStatements interface in KB sandbox WB](https://kbtestwikibase.wikibase.cloud/tools/quickstatements/#/batch) (login required)
 
 #### 4) Advanced data import tools
 * [WikibaseImport](https://github.com/Wikidata/WikibaseImport), a MediaWiki extension   
