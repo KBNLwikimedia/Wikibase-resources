@@ -176,7 +176,6 @@ Using [KB's sandbox WB](https://kbtestwikibase.wikibase.cloud/wiki/Main_Page) (l
 <hr>
 
 ### Finding help
-
 #### Active help (by humans) 
 * Help by community: use all community channels above.
 * Tip: Use the Telegram channels if you want help quickly
