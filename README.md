@@ -19,7 +19,6 @@ Latest update: 6 September 2023
 
 ### Contents
 - [Wikibase resources](#wikibase-resources)
-    + [Contents](#contents)
     + [Wikibase hosting](#wikibase-hosting)
     + [Requesting data from a Wikibase](#requesting-data-from-a-wikibase)
       - [1) HTML content in web browser](#1--html-content-in-web-browser)
@@ -177,6 +176,7 @@ Using [KB's sandbox WB](https://kbtestwikibase.wikibase.cloud/wiki/Main_Page) (l
 <hr>
 
 ### Finding help
+
 #### Active help (by humans) 
 * Help by community: use all community channels above.
 * Tip: Use the Telegram channels if you want help quickly
