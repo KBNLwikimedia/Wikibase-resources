@@ -19,6 +19,7 @@ Latest update: 6 September 2023
 
 ### Contents
   * [Requesting data from a Wikibase](#requesting-data-from-a-Wikibase)
+  * [Cool Wikibase SPARQL queries ](#cool-wikibase-sparql-queries)
   * [Adding data to a Wikibase](#adding-data-to-a-Wikibase)
   * [Wikibase community](#wikibase-community)
   * [Staying updated](#staying-updated)
@@ -49,11 +50,15 @@ Latest update: 6 September 2023
 * Q29 as XML: https://kbtestwikibase.wikibase.cloud/w/api.php?action=wbgetentities&ids=Q29&format=xml 
 
 #### 4) SPARQL
+* See [Cool Wikibase SPARQL queries ](#cool-wikibase-sparql-queries)
+
+<hr>
+
+### Cool Wikibase SPARQL queries 
 * FactGrid: [Living addresses of Parisian painters in 1834](https://tinyurl.com/2mrnynpd)
 * FactGrid: [Ages of deceased persons](https://tinyurl.com/2y6f78x5)
 * EU Knowlegde Graph: [Buildings of the EU](https://tinyurl.com/242a3rrh) 
-* KB Wikibase: [Medieval manuscripts of the KB](https://tinyurl.com/2bxb8hkn )  
-
+* KB Wikibase: [Medieval manuscripts of the KB](https://tinyurl.com/2bxb8hkn)  
 <hr>
 
 ### Adding data to a Wikibase 
