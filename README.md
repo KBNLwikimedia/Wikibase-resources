@@ -2,7 +2,7 @@
 <image src="Afbeelding1.jpg" hspace="10"/>
 <image src="KB_Nationale-Bibliotheek_Logo_RGB-Zwart-EN.jpg" width="400" align="top"/>
 </p>
-		
+  
 # Wikibase resources
 *A collection of resources, overviews, links and knowlegde related to Wikibase, collected and curated by KB, national library of the Netherlands.*
 
@@ -19,13 +19,13 @@ Latest update: 6 September 2023
 
 ### Contents
 - [Wikibase resources](#wikibase-resources)
-    + [Wikibase hosting](#wikibase-hosting)
-    + [Requesting data from a Wikibase](#requesting-data-from-a-wikibase)
-    + [Cool Wikibase SPARQL queries](#cool-wikibase-sparql-queries)
-    + [Adding data to a Wikibase](#adding-data-to-a-wikibase)
-    + [Wikibase community](#wikibase-community)
-    + [Staying updated](#staying-updated)
-    + [Finding help](#finding-help)
+  + [Wikibase hosting](#wikibase-hosting)
+  + [Requesting data from a Wikibase](#requesting-data-from-a-wikibase)
+  + [Cool Wikibase SPARQL queries](#cool-wikibase-sparql-queries)
+  + [Adding data to a Wikibase](#adding-data-to-a-wikibase)
+  + [Wikibase community](#wikibase-community)
+  + [Staying updated](#staying-updated)
+  + [Finding help](#finding-help)
 
 <small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
 
@@ -35,150 +35,157 @@ Latest update: 6 September 2023
 
 <hr>
 
-Opfrisser Wikidata
+### Recap Wikidata
 Dit blok is een samenvatting van de presentatie Wegwijzer in Wikidata, Olaf Janssen, KB, 6 juni 2023
 https://commons.wikimedia.org/wiki/File:Wegwijzer_in_Wikidata,_Introductiecurus_Wikidata_-_Koninklijke_Bibliotheek,_6_juni_2023.pdf 
 Zenodo: https://zenodo.org/record/8006441
 
-Wikidata bevat gestructureerde beschrijvingen van 106M dingen sinds okt 2012, volgens https://www.wikidata.org/wiki/Wikidata:Statistics,  dd 3-5-2023O.a: Wetenschappelijke artikelen - Mensen - Dieren en planten - Gebeurtenissen - Landen, provincies, gemeentes, steden, dorpen - Straten, wegen, pleinen - Gebouwen - Voertuigen  - Bedrijven en instellingen - Kunstwerken (film, muziek, schilderijen etc.) - Chemische stoffen - Astromische objecten - Genen - e.v.a.
+Wikidata bevat gestructureerde beschrijvingen van 106M dingen sinds okt 2012, volgens https://www.wikidata.org/wiki/Wikidata:Statistics, dd 3-5-2023
+o.a: Wetenschappelijke artikelen - Mensen - Dieren en planten - Gebeurtenissen - Landen, provincies, gemeentes, steden, dorpen - Straten, wegen, pleinen - Gebouwen - Voertuigen - Bedrijven en instellingen - Kunstwerken (film, muziek, schilderijen etc.) - Chemische stoffen - Astromische objecten - Genen - e.v.a.
 Wikidata-items met geolocatie, mei 2019 - https://commons.wikimedia.org/wiki/File:Wikidata_Map_May_2019_Huge.png, Addshore, CC0, via Wikimedia Commons
 
-Wat zijn de uitgangspunten van Wikidata? (1-4)
-Gestructureerde beschrijvingen van dingen
-Centrale opslag (vs gedistribueerd – data silo’s)
-Meertalig (200+ talen) - Beschrijving van de Eiffeltoren - https://www.wikidata.org/wiki/Q243 (Nederlandstalige, Engelstalige, Portugese en Japanse interface)
-Linked data - Things, not strings - Geen platte tekst, maar klikbare links - Onderling verbonden: https://www.wikidata.org/wiki/Q243 (Eiffeltoren) en https://www.wikidata.org/wiki/Q20882 (Gustave Eiffel) - Verbonden met andere databases
-Open & vrij - Gratis, geen trackers, geen ads  - Geen auteurs- of databankrechten (CC0-licentie - https://creativecommons.org/publicdomain/zero/1.0/) - Iedereen mag data hergebruiken: bevragen, delen, kopiëren, bewerken, downloaden, verkopen etc. - Iedereen mag data bijdragen/bewerken toevoegen, verbeteren, verwijderen, samenvoegen etc. --> community
-Community -  Internationaal - 24K bewerkers - Onder de vlag van de Wikimedia Foundation  zusterproject van Wikipedia, Commons etc. 
-Voor mensen en machines - Mensleesbaar, mensschrijfbaar --> Data beschikbaar via GUIs in HTML, https://www.wikidata.org/wiki/Q1526131 (Koninklijke bibliotheek) - Machineleesbaar, machineschrijfbaar --> Data beschikbaar via APIs in JSON, XML/RDF, CSV etc.,     https://www.wikidata.org/w/api.php?action=wbgetentities&ids=Q1526131     https://www.wikidata.org/w/api.php?action=wbgetentities&ids=Q1526131&props=labels&format=xml 
+Wat zijn de uitgangspunten van Wikidata? 
+1. Gestructureerde beschrijvingen van dingen
+2. Centrale opslag (vs gedistribueerd – data silo’s)
+3. Meertalig (200+ talen) - Beschrijving van de Eiffeltoren - https://www.wikidata.org/wiki/Q243 (Nederlandstalige, Engelstalige, Portugese en Japanse interface)
+4. Linked data - Things, not strings - Geen platte tekst, maar klikbare links - Onderling verbonden: https://www.wikidata.org/wiki/Q243 (Eiffeltoren) en https://www.wikidata.org/wiki/Q20882 (Gustave Eiffel) - Verbonden met andere databases
+5. Open & vrij - Gratis, geen trackers, geen ads - Geen auteurs- of databankrechten (CC0-licentie - https://creativecommons.org/publicdomain/zero/1.0/) - Iedereen mag data hergebruiken: bevragen, delen, kopiëren, bewerken, downloaden, verkopen etc. - Iedereen mag data bijdragen/bewerken toevoegen, verbeteren, verwijderen, samenvoegen etc. --> community
+6. Community - Internationaal - 24K bewerkers - Onder de vlag van de Wikimedia Foundation  zusterproject van Wikipedia, Commons etc. 
+7. Voor mensen en machines - Mensleesbaar, mensschrijfbaar --> Data beschikbaar via GUIs in HTML, https://www.wikidata.org/wiki/Q1526131 (Koninklijke bibliotheek) - Machineleesbaar, machineschrijfbaar --> Data beschikbaar via APIs in JSON, XML/RDF, CSV etc.,  https://www.wikidata.org/w/api.php?action=wbgetentities&ids=Q1526131   https://www.wikidata.org/w/api.php?action=wbgetentities&ids=Q1526131&props=labels&format=xml 
 
 <hr>
 Wat voor soort data bevat Wikidata? https://kennisplatform.wikimedia.nl/artikelen/data-delen/wat-zijn-de-criteria-voor-data-op-wikidata/ 
 Wikidata is een secundaire, algemene, openbare kennisbank voor de wereld.
-Secundair
+
+* Secundair
   - Niet-originele gegevens over
   - Notenswaardige dingen (meer info) 
   - Verifieerbaar d.m.v. betrouwbare openbare bronnen (meer info)
-Algemeen
+* Algemeen
   - Breed scala aan onderwerpen/klassen
   - Relatief basale data, niet superspecialistisch
-Openbaar
+* Openbaar
   - Openbare gegevens
   - Geen auteursrechten
   - Geen privacygevoeligheden (meer info)
 
 <hr>
 Wensen van erfgoedinstellingen waarvoor Wikidata niet geschikt is
-Publiceren domein-specifieke / specialistische / ‘esoterische’ LOD
-Publiceren hele grote LOD-sets (bv. catalogi, thesauri)
-Gebruik hele specifieke/complexe/gelaagde/diepe datamodellen
-Eigen controle over wie data mag toevoegen / muteren
-Samenwerking met geselecteerde partners in besloten, gecontroleerde omgeving
-Vastleggen niet-openbare data
-Eigen controle over hosting / IT-infra
+* Publiceren domein-specifieke / specialistische / ‘esoterische’ LOD
+* Publiceren hele grote LOD-sets (bv. catalogi, thesauri)
+* Gebruik hele specifieke/complexe/gelaagde/diepe datamodellen
+* Eigen controle over wie data mag toevoegen / muteren
+* Samenwerking met geselecteerde partners in besloten, gecontroleerde omgeving
+* Vastleggen niet-openbare data
+* Eigen controle over hosting / IT-infra
 
-Wikibase als oplossing!? https://commons.wikimedia.org/wiki/File:Wikibase,_de_voordelen_van_Wikidata,_zonder_de_nadelen_-_Artikel_van_Olaf_Janssen_in_InformatieProfessional_nr.08,_2019,_pagina_37.jpg,  Olaf Janssen, CC BY-SA 4.0
+Wikibase als oplossing!? https://commons.wikimedia.org/wiki/File:Wikibase,_de_voordelen_van_Wikidata,_zonder_de_nadelen_-_Artikel_van_Olaf_Janssen_in_InformatieProfessional_nr.08,_2019,_pagina_37.jpg, Olaf Janssen, CC BY-SA 4.0
 
-Wat is Wikibase?
-De open-source, gratis software waar Wikidata op draait
-Wikibase is essentially a blank copy of Wikidata into which you can put your own structured data.  Bron
-Je kunt er je eigen LOD-kennisbank mee bouwen & beheren
-Zonder de nadelen van Wikidata 
-Eigen datamodellen, domein-specifiek / specialistisch / ‘esoterisch’
-Grote datasets
-Eigen rechtenbeheer (wie mag bijdragen)
-Niet perse openbaar
-Eigen IT-hosting
-Met alle voordelen van Wikidata
-Gericht op samenwerking en verbinding (o.a. Wikidata-community)
-Voor mensen en machines
-Gebruiksvriendelijke GUI voor gestructureerde data (Qs en Ps)
-Ondersteuning voor meertaligheid
-Versiegeschiedenis
-Overzichtelijke ontologie: Items, Properties, Statements etc.
-Output in diverse dataformaten (o.a. JSON, RDF/XML, N3)
-Zoeken via SPARQL
-MediaWiki API
-Ondersteuning voor tools (o.a. OpenRefine)
-Documentatie
+### Wat is Wikibase?
+* De open-source, gratis software waar Wikidata op draait - Wikibase is essentially a blank copy of Wikidata into which you can put your own structured data. Bron
+* Je kunt er je eigen LOD-kennisbank mee bouwen & beheren
+* Zonder de nadelen van Wikidata 
+  - Eigen datamodellen, domein-specifiek / specialistisch / ‘esoterisch’
+  - Grote datasets
+  - Eigen rechtenbeheer (wie mag bijdragen)
+  - Niet perse openbaar
+  - Eigen IT-hosting
+* Met alle voordelen van Wikidata
+  - Gericht op samenwerking en verbinding (o.a. Wikidata-community)
+  - Voor mensen en machines
+  - Gebruiksvriendelijke GUI voor gestructureerde data (Qs en Ps)
+  - Ondersteuning voor meertaligheid
+  - Versiegeschiedenis
+  - Overzichtelijke ontologie: Items, Properties, Statements etc.
+  - Output in diverse dataformaten (o.a. JSON, RDF/XML, N3)
+  - Zoeken via SPARQL
+  - MediaWiki API
+  - Ondersteuning voor tools (o.a. OpenRefine)
+  - Documentatie
 
 <hr>
-Wikibase website:  https://wikiba.se/
-Het grotere plaatje, Wikidata-Wikibase strategie: https://meta.wikimedia.org/wiki/LinkedOpenData/Strategy2021/Joint_Vision + https://meta.wikimedia.org/wiki/LinkedOpenData/Strategy2021/Wikibase  
-![afbeelding](https://github.com/KBNLwikimedia/Wikibase-resources/assets/6546244/fa6b9057-5f1b-477f-a6c8-e08ca35044b0)
-
+Wikibase website: https://wikiba.se/
+Het grotere plaatje, Wikidata-Wikibase strategie: https://meta.wikimedia.org/wiki/LinkedOpenData/Strategy2021/Joint_Vision + https://meta.wikimedia.org/wiki/LinkedOpenData/Strategy2021/Wikibase 
 
 <hr>
 
 ### Voorbeelden van instellingen/projecten die Wikibase gebruiken (1-6)
-Wikidata: https://www.wikidata.org/wiki/Wikidata:Main_Page 
 
-2) Rhizome Artbase : https://artbase.rhizome.org/wiki/Main_PageRhizome = art organization in NYC - Artbase =  archive of born-digital art 1983-present.) - First Wikibase instance outside of Wikimedia projects - https://artbase.rhizome.org/wiki/Query/example1  
+* Wikidata: https://www.wikidata.org/wiki/Wikidata:Main_Page 
 
-3) Enslaved.org: https://enslaved.org + https://lod.enslaved.org/wiki/Meta:Main_PageLOD platform containing ±1M records (people, events, places, and sources) related to the transatlantic slave trade 
-	https://tech-news.wikimedia.de/en/2021/02/18/stories-of-the-enslaved-told-using-wikibase/ 
-	
-4) FactGrid: https://database.factgrid.de/wiki/Main_Page 
-	Open collaborative international Wikibase knowledge graph for historical research, 312 participants
-	FactGrid projects, by era:  https://database.factgrid.de/wiki/FactGrid:Projects  
-	Paris to download: https://database.factgrid.de/wiki/FactGrid:Nineteenth_Century#Paris_to_download 
-	All the houses and streets of Paris c. 1820 in a data set with geographic coordinates and administrative information free to download 
-	SPARQL:  All the houses and streets of Paris c. 1820 https://tinyurl.com/yf4fvrf7 + https://blog.factgrid.de/archives/2333  
+* Rhizome Artbase : https://artbase.rhizome.org/wiki/Main_Page Rhizome = art organization in NYC - Artbase = archive of born-digital art 1983-present.) - First Wikibase instance outside of Wikimedia projects - https://artbase.rhizome.org/wiki/Query/example1 
 
-5) Aviation Safety Network: https://aviation-safety.net/about/ 
-	Provides up-to-date, complete and reliable authoritative information on airliner accidents and safety issues. 
-	The ASN Wikibase: https://aviation-safety.net/wikibase -  updated regularly by a large user community and contains descriptions of more than 258,000 accidents involving light aircraft, military aircraft, helicopters, gyroplanes, gliders, hot air balloons and UAVs since 1905.
-		
-6) EU Knowlegde Graph: https://linkedopendata.eu/wiki/The_EU_Knowledge_GraphContains information about 1.9M projects financed by the EU and 700K beneficiaries of European projects - https://hal.archives-ouvertes.fr/hal-03353225/document + https://www.youtube.com/watch?v=PyBWo-ka9JU 
-	Kohesio website: https://kohesio.ec.europa.eu - Frontend voor EU Knowledge Graphhttps://www.wikimedia.de/presse/european-commission-goes-open-source-new-project-kohesio-uses-wikimedias-software-wikibase/ 
-	Verken bv EU-projecten in je buurt - 1.259 EU-projecten in Zuid-Holland - https://kohesio.ec.europa.eu/nl/?kaart%20regio=Nederland,Zuid-Holland,Q3119#mijn%20regio 
+* Enslaved.org: https://enslaved.org + https://lod.enslaved.org/wiki/Meta:Main_Page LOD platform containing ±1M records (people, events, places, and sources) related to the transatlantic slave trade 
+ https://tech-news.wikimedia.de/en/2021/02/18/stories-of-the-enslaved-told-using-wikibase/ 
+ 
+* FactGrid: https://database.factgrid.de/wiki/Main_Page 
+ Open collaborative international Wikibase knowledge graph for historical research, 312 participants
+ FactGrid projects, by era: https://database.factgrid.de/wiki/FactGrid:Projects 
+ Paris to download: https://database.factgrid.de/wiki/FactGrid:Nineteenth_Century#Paris_to_download 
+ All the houses and streets of Paris c. 1820 in a data set with geographic coordinates and administrative information free to download 
+ SPARQL: All the houses and streets of Paris c. 1820 https://tinyurl.com/yf4fvrf7 + https://blog.factgrid.de/archives/2333 
 
-7) Kunstmuseum API: https://api.kunstmuseum.nl/wiki/Kunstmuseum_APIWikibase om data voor websites Delftsaardewerk.nl, Van Gogh Worldwide en Aziatisch keramiek vanuit verschillende musea te importeren en te leveren via een centrale API.
-	Delftsaardewerk.nl, Collectie Kunstmuseum Den Haag, object 0400098: https://delftsaardewerk.nl/bekijken/voorwerp/gemeentemuseum-den-haag/400098  + https://api.kunstmuseum.nl/wiki/Item:Q2559  
-	
-Wikibase-projecten in bibliotheken
-Wikibase is being evaluated by libraries as a tool to help them store and manage their structured data, as well as connect to the world of linked open data.German National Library (DNB) - KB, national library of the Netherlands - National Library of France (more info) - National Library of the Czech Republic (more info)  - National Library of Luxembourg (more info) - National library of Greece (more info) - The Smithsonian Libraries (more info) 
+* Aviation Safety Network: https://aviation-safety.net/about/ 
+ Provides up-to-date, complete and reliable authoritative information on airliner accidents and safety issues. 
+ The ASN Wikibase: https://aviation-safety.net/wikibase - updated regularly by a large user community and contains descriptions of more than 258,000 accidents involving light aircraft, military aircraft, helicopters, gyroplanes, gliders, hot air balloons and UAVs since 1905.
 
-8) DNB/GND: GND - Gemeinsame Normdatei, Integrated authority file for German speaking countries, 8 M authority records on persons, corporate bodies, subject headings, geographical names, works etc. https://www.dnb.de/EN/Professionell/Standardisierung/GND/gnd_node.htmlWikibase as a second home for the GND - To collaboratively edit and maintain authority records for the entire GLAM field and digital humanities.
-	https://tech-news.wikimedia.de/en/2020/03/04/wikibase-and-gnd/ + LA BIBLIOTECA PIATTAFORMA DELLA CONOSCENZA - Collaborativa, inclusiva, reticolare - 2021 (vanaf p 145)
-	
-9) Wikibase @KB (internal) Acceptatie-Wikibase (in ontwikkeling) https://acc.emma.zbkb.nl/wiki/Main_Page  
-	KB-Centsprenten en middeleeuwse handschriften https://acc.emma.zbkb.nl/wiki/Special:AllPages?from=&to=&namespace=120  
-	https://acc.emma.zbkb.nl/wiki/Item:Q1004  
+* EU Knowlegde Graph: https://linkedopendata.eu/wiki/The_EU_Knowledge_Graph Contains information about 1.9M projects financed by the EU and 700K beneficiaries of European projects - https://hal.archives-ouvertes.fr/hal-03353225/document + https://www.youtube.com/watch?v=PyBWo-ka9JU 
+ Kohesio website: https://kohesio.ec.europa.eu - Frontend voor EU Knowledge Graph https://www.wikimedia.de/presse/european-commission-goes-open-source-new-project-kohesio-uses-wikimedias-software-wikibase/ 
+ Verken bv EU-projecten in je buurt - 1.259 EU-projecten in Zuid-Holland - https://kohesio.ec.europa.eu/nl/?kaart%20regio=Nederland,Zuid-Holland,Q3119#mijn%20regio 
 
-10) Meer Wikibase-instanties
-	https://wikibase.world/wiki/Project:Home  -- https://tinyurl.com/2jkres9t   -- https://github.com/shigapov/wikibase-knowledge-graphs#awesome-wikibase-instances 
+* Kunstmuseum API: https://api.kunstmuseum.nl/wiki/Kunstmuseum_API Wikibase om data voor websites Delftsaardewerk.nl, Van Gogh Worldwide en Aziatisch keramiek vanuit verschillende musea te importeren en te leveren via een centrale API.
+ Delftsaardewerk.nl, Collectie Kunstmuseum Den Haag, object 0400098: https://delftsaardewerk.nl/bekijken/voorwerp/gemeentemuseum-den-haag/400098 + https://api.kunstmuseum.nl/wiki/Item:Q2559 
+ 
+* DNB/GND: GND - Gemeinsame Normdatei, Integrated authority file for German speaking countries, 8 M authority records on persons, corporate bodies, subject headings, geographical names, works etc. https://www.dnb.de/EN/Professionell/Standardisierung/GND/gnd_node.html Wikibase as a second home for the GND - To collaboratively edit and maintain authority records for the entire GLAM field and digital humanities.
+ https://tech-news.wikimedia.de/en/2020/03/04/wikibase-and-gnd/ + LA BIBLIOTECA PIATTAFORMA DELLA CONOSCENZA - Collaborativa, inclusiva, reticolare - 2021 (vanaf p 145)
+ 
+* Wikibase @KB (internal) Acceptatie-Wikibase (in ontwikkeling) https://acc.emma.zbkb.nl/wiki/Main_Page 
+ KB-Centsprenten en middeleeuwse handschriften https://acc.emma.zbkb.nl/wiki/Special:AllPages?from=&to=&namespace=120 
+ https://acc.emma.zbkb.nl/wiki/Item:Q1004 
+
+* Meer Wikibase-instanties
+  - https://wikibase.world/wiki/Project:Home -- [List of WB instances](https://tinyurl.com/2jkres9t)
+  - https://github.com/shigapov/wikibase-knowledge-graphs#awesome-wikibase-instances 
 
 <hr>
+
+### Wikibase projects in libraries
+Wikibase is being evaluated by libraries as a tool to help them store and manage their structured data, as well as connect to the world of linked open data. 
+* German National Library (DNB) 
+* KB, national library of the Netherlands 
+* National Library of France (more info) 
+* National Library of the Czech Republic (more info) 
+* National Library of Luxembourg (more info) 
+* National library of Greece (more info) 
+* The Smithsonian Libraries (more info) 
 
 Meerdere bibliotheken hebben pilots, experimenten en evaluaties met Wikibase gedaan. Wat zijn hun bevindingen?
-OCLC, Project Passage:  https://www.oclc.org/content/dam/research/publications/2019/oclcresearch-creating-library-linked-data-with-wikibase-project-passage-a4.pdf
-Bibliotheken VS, Use cases for institutional Wikibase instances: https://github.com/timothy-mendenhall/wikibase-use-cases/blob/master/UseCases-2020.md  
-DNB, GND meets Wikibase:  https://wiki.dnb.de/pages/viewpage.action?pageId=147754828 + https://wiki.dnb.de/pages/viewpage.action?pageId=167019461
-DBN/BnF:  Wikibase for Cultural Heritage and Academia, Perceived pros and cons of Wikibase as a solution - https://joinup.ec.europa.eu/sites/default/files/custom-page/attachment/2020-11/Parallel-track-4_B-Fischer_J-Thill_A-Angjeli%20final%20ppt.pdf
-TIB/NFDI (Duitsland): Examining Wikidata and Wikibase in the context of research data management applications: https://blogs.tib.eu/wp/tib/2022/03/16/examining-wikidata-and-wikibase-in-the-context-of-research-data-management-applicationshttps://www.youtube.com/watch?v=RPMkuDxHJtIWikidata and Wikibase as complementary research services for cultural heritage data: https://blogs.tib.eu/wp/tib/2022/03/17/wikidata-and-wikibase-as-complementary-research-services-for-cultural-heritage-data/
-TIB/NFDI (Duitsland): https://zenodo.org/record/7738424 + http://docs.google.com/spreadsheets/d/1FNU8857JwUNFXmXAW16lgpjLq5TkgBUuafqZF-yo8_I/edit?usp=share_link    
+* OCLC, Project Passage: https://www.oclc.org/content/dam/research/publications/2019/oclcresearch-creating-library-linked-data-with-wikibase-project-passage-a4.pdf
+* Bibliotheken VS, Use cases for institutional Wikibase instances: https://github.com/timothy-mendenhall/wikibase-use-cases/blob/master/UseCases-2020.md 
+* DNB, GND meets Wikibase: https://wiki.dnb.de/pages/viewpage.action?pageId=147754828 + https://wiki.dnb.de/pages/viewpage.action?pageId=167019461
+* DBN/BnF: Wikibase for Cultural Heritage and Academia, Perceived pros and cons of Wikibase as a solution - https://joinup.ec.europa.eu/sites/default/files/custom-page/attachment/2020-11/Parallel-track-4_B-Fischer_J-Thill_A-Angjeli%20final%20ppt.pdf
+* TIB/NFDI (Duitsland): Examining Wikidata and Wikibase in the context of research data management applications: https://blogs.tib.eu/wp/tib/2022/03/16/examining-wikidata-and-wikibase-in-the-context-of-research-data-management-applications https://www.youtube.com/watch?v=RPMkuDxHJtI Wikidata and Wikibase as complementary research services for cultural heritage data: https://blogs.tib.eu/wp/tib/2022/03/17/wikidata-and-wikibase-as-complementary-research-services-for-cultural-heritage-data/
+* TIB/NFDI (Duitsland): https://zenodo.org/record/7738424 + http://docs.google.com/spreadsheets/d/1FNU8857JwUNFXmXAW16lgpjLq5TkgBUuafqZF-yo8_I/edit?usp=share_link  
 
 <hr>
 
-
 ### 1) WB componenten & architectuur 
-Diefenbach et al (2021), “Wikibase as an Infrastructure for Knowledge Graphs: the EU Knowledge Graph” - https://hal.science/hal-03353225/document  MariaDB = relationale MySQL DBBlazeGraph = RDF triple storeQuery service UI = SPARQL
-WB architecture documentation: https://wmde.github.io/wikidata-wikibase-architecture  
+Diefenbach et al (2021), “Wikibase as an Infrastructure for Knowledge Graphs: the EU Knowledge Graph” - https://hal.science/hal-03353225/document MariaDB = relationale MySQL DB BlazeGraph = RDF triple store Query service UI = SPARQL
+WB architecture documentation: https://wmde.github.io/wikidata-wikibase-architecture 
 
-### 2) Hoe worden dingen in een Wikibase beschreven?  Wikibase datamodel 
-	Wikibase datamodel (simpel) : https://www.mediawiki.org/wiki/Wikibase/DataModel/Primer 
-Amsterdam in de EU Knowlegde Graph, “Amsterdam is de hoofdstad van Nederland”. Triple: - Item: Nederland - https://linkedopendata.eu/wiki/Item:Q19   - Eigenschap: Hoofdstad - https://linkedopendata.eu/wiki/Property:P27 - Waarde: Amsterdam - https://linkedopendata.eu/wiki/Item:Q43
-Opbouw datamodel:- Unieke identifier Q43 in https://linkedopendata.eu/wiki/Item:Q43- Meertalige fingerprint: Label, Beschrijving, Aliases (Ook bekend als)	- Statement: P32 + Q19	- Qualifier met P33- Bronvermelding	- Externe identifiers (P’s): Amsterdam in andere databases
+### 2) Wikibase datamodel Hoe worden dingen in een Wikibase beschreven?
+ Wikibase datamodel (simpel) : https://www.mediawiki.org/wiki/Wikibase/DataModel/Primer 
+Amsterdam in de EU Knowlegde Graph, “Amsterdam is de hoofdstad van Nederland”. Triple: - Item: Nederland - https://linkedopendata.eu/wiki/Item:Q19  - Eigenschap: Hoofdstad - https://linkedopendata.eu/wiki/Property:P27 - Waarde: Amsterdam - https://linkedopendata.eu/wiki/Item:Q43
+Opbouw datamodel: - Unieke identifier Q43 in https://linkedopendata.eu/wiki/Item:Q43 - Meertalige fingerprint: Label, Beschrijving, Aliases (Ook bekend als) - Statement: P32 + Q19 - Qualifier met P33 - Bronvermelding - Externe identifiers (P’s): Amsterdam in andere databases
 Versiegeschiedenis: https://linkedopendata.eu/w/index.php?title=Item:Q43&action=history
 Wikibase datamodel (conceptueel) : https://www.mediawiki.org/wiki/Wikibase/DataModel 
 
 #### Andere datamodellen in Wikibase 
 Wikibase heeft een eigen uniek datamodel, daar zitten beperkingen aan. 
 In hoeverre kun je andere (door de KB gebruikte) datamodellen (RDA, schema.org) in een WB opnemen?
-Literatuur over beperkingen datamodel Wikibase - https://wikidataworkshop.github.io/2022/papers/Wikidata_Workshop_2022_paper_9774.pdf - Wikidata’22: Wikidata workshop at ISWC 2022 - daniil.dobriy@wu.ac.at (D.Dobriy); axel.polleres@wu.ac.at (A. Polleres) - CC BY 4.0 – CEUR Workshop Proceedings, http://ceur-ws.org, ISSN 1613-0073- Diefenbach et al (2021), “Wikibase as an Infrastructure for Knowledge Graphs: the EU Knowledge Graph” - https://hal.science/hal-03353225/document- Bergamin, G. (2022). Wikibase, or The search for the unicorn. JLIS.It, 13(3), 49–62. https://doi.org/10.36253/jlis.it-484
-Oplossingsrichting door National Library of Greece (NLG)- http://www.rda-rsc.org/sites/all/files/NLG_Wikibase.pdf - https://www.youtube.com/watch?v=TPIS11QK8jI  - Samenvatting door Marieke Moolenaar (KB), interne email, 21-8-2023
-Analyse door Marieke Moolenaar: https://plein.kb.nl/thoughts/25980  + https://github.com/schemaorg/schemaorg/wiki/BlazeGraphSPARQLHowto   
+Literatuur over beperkingen datamodel Wikibase - https://wikidataworkshop.github.io/2022/papers/Wikidata_Workshop_2022_paper_9774.pdf - Wikidata’22: Wikidata workshop at ISWC 2022 - daniil.dobriy@wu.ac.at (D.Dobriy); axel.polleres@wu.ac.at (A. Polleres) - CC BY 4.0 – CEUR Workshop Proceedings, http://ceur-ws.org, ISSN 1613-0073 - Diefenbach et al (2021), “Wikibase as an Infrastructure for Knowledge Graphs: the EU Knowledge Graph” - https://hal.science/hal-03353225/document - Bergamin, G. (2022). Wikibase, or The search for the unicorn. JLIS.It, 13(3), 49–62. https://doi.org/10.36253/jlis.it-484
+Oplossingsrichting door National Library of Greece (NLG) - http://www.rda-rsc.org/sites/all/files/NLG_Wikibase.pdf - https://www.youtube.com/watch?v=TPIS11QK8jI - Samenvatting door Marieke Moolenaar (KB), interne email, 21-8-2023
+Analyse door Marieke Moolenaar: https://plein.kb.nl/thoughts/25980 + https://github.com/schemaorg/schemaorg/wiki/BlazeGraphSPARQLHowto  
 
 <hr>
 
