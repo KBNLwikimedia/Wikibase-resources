@@ -139,10 +139,6 @@ Het grotere plaatje, Wikidata-Wikibase strategie: https://meta.wikimedia.org/wik
 * DNB/GND: GND - Gemeinsame Normdatei, Integrated authority file for German speaking countries, 8 M authority records on persons, corporate bodies, subject headings, geographical names, works etc. https://www.dnb.de/EN/Professionell/Standardisierung/GND/gnd_node.html Wikibase as a second home for the GND - To collaboratively edit and maintain authority records for the entire GLAM field and digital humanities.
  https://tech-news.wikimedia.de/en/2020/03/04/wikibase-and-gnd/ + LA BIBLIOTECA PIATTAFORMA DELLA CONOSCENZA - Collaborativa, inclusiva, reticolare - 2021 (vanaf p 145)
  
-* Wikibase @KB (internal) Acceptatie-Wikibase (in ontwikkeling) https://acc.emma.zbkb.nl/wiki/Main_Page 
- KB-Centsprenten en middeleeuwse handschriften https://acc.emma.zbkb.nl/wiki/Special:AllPages?from=&to=&namespace=120 
- https://acc.emma.zbkb.nl/wiki/Item:Q1004 
-
 * Meer Wikibase-instanties
   - https://wikibase.world/wiki/Project:Home -- [List of WB instances](https://tinyurl.com/2jkres9t)
   - https://github.com/shigapov/wikibase-knowledge-graphs#awesome-wikibase-instances 
