@@ -63,50 +63,49 @@ This section ia a summary of the lecture *[Introduction to Wikidata](https://com
 
 * Wikidata is a *secondary, general purpose, public* knowledge base for the world.
   - Secondary
-    - Niet-originele gegevens over
-    - Notenswaardige dingen (more info) 
-    - Verifieerbaar d.m.v. betrouwbare openbare bronnen (more info)
+    - Non-original data about
+    - Notable things ([more info](https://www.wikidata.org/wiki/Wikidata:Notability)) 
+    - Verifiable by reliable public sources ([more info](https://www.wikidata.org/wiki/Wikidata:Verifiability))
   - General purpose
-    - Breed scala aan onderwerpen/klassen
-    - Relatief basale data, niet superspecialistisch
+    - Wide scope of topics/classes
+    - Items contain relatively basic data (limited set of properties), Wikidata is not aimed at superspecialistic/deep data
   - Public
-    - Openbare gegevens
-    - Geen auteursrechten
-    - Geen privacygevoeligheden (more info)
+    - Public data
+    - Without copyright issues
+    - Without privacy issues ([more info](https://www.wikidata.org/wiki/Wikidata:Living_people))
 
-<hr>
-Wishes of heritage institutions for which Wikidata is not suitable
-* Publish domain-specific / specialist / 'esoteric' LOD
-* Publish very large LOD sets (e.g. catalogues, thesauri)
-* Use very specific/complex/layered/deep data models
-* Own control over who can add/change data
-* Collaboration with selected partners in a closed, controlled environment
-* Recording non-public data
-* Own control over hosting / IT infrastructure
-
-Wikibase als oplossing!? https://commons.wikimedia.org/wiki/File:Wikibase,_de_voordelen_van_Wikidata,_zonder_de_nadelen_-_Artikel_van_Olaf_Janssen_in_InformatieProfessional_nr.08,_2019,_pagina_37.jpg, Olaf Janssen, CC BY-SA 4.0
+* Institutional use cases for which Wikidata is *not* suitable
+  - Publish domain-specific / specialist / 'esoteric' LOD
+  - Publish very large LOD sets (e.g. catalogues, thesauri)
+  - Use of very specific/complex/deep/layered data models
+  - Control over who can add/change data
+  - Collaboration with selected partners in a closed, controlled environment
+  - Recording non-public data
+  - Own control over hosting / IT infrastructure
 
 ### What is Wikibase?
-* The open-source, free software that powers Wikidata - "Wikibase is essentially a blank copy of Wikidata into which you can put your own structured data" [Source](). 
+* The open-source, free software that powers Wikidata - "Wikibase is essentially a blank copy of Wikidata into which you can put your own structured data" [source](https://heardlibrary.github.io/digital-scholarship/host/wikidata/bot/). 
 * It allows you to build & manage your own LOD knowledge base
 * Without the disadvantages of Wikidata
-   - Own data models, domain-specific / specialist / 'esoteric'
-   - Large data sets
-   - Own rights management (who is allowed to contribute)
-   - Not necessarily public
+   - You can create your own data models, as domain-specific/specialist/esoteric as you want/need.
+   - Large data sets are no problem
+   - Custom rights management (who is allowed to contribute)
+   - Not necessarily public, Wikibase instance can be non-public
    - Own IT hosting
 * With all the benefits of Wikidata
    - Focused on collaboration and connection (including Wikidata community)
    - For people and machines
-   - User-friendly GUI for structured data (Qs and Ps)
-   - Multilingualism support
-   - Version history
+   - User-friendly GUI for structured data
+   - Native multilingualism support
+   - Version history and control, rollbacks
    - Clear ontology: Items, Properties, Statements etc.
    - Output in various data formats (including JSON, RDF/XML, N3)
    - Search via SPARQL
-   - MediaWiki API
+   - Well suported and documented MediaWiki API
    - Support for tools (including OpenRefine)
    - Documentation for Wikidata is in general applicable to Wikibase as well
+
+*[Wikibase: the advantages of Wikidata, without the disadvantages](https://commons.wikimedia.org/wiki/File:Wikibase,_de_voordelen_van_Wikidata,_zonder_de_nadelen_-_Artikel_van_Olaf_Janssen_in_InformatieProfessional_nr.08,_2019,_pagina_37.jpg)* (article in Dutch by Olaf Janssen) 
 
 <hr>
 Wikibase website: https://wikiba.se/
@@ -114,7 +113,7 @@ Het grotere plaatje, Wikidata-Wikibase strategie: https://meta.wikimedia.org/wik
 
 <hr>
 
-### Voorbeelden van instellingen/projecten die Wikibase gebruiken (1-6)
+### Voorbeelden van instellingen/projecten die Wikibase gebruiken
 
 * Wikidata: https://www.wikidata.org/wiki/Wikidata:Main_Page 
 
