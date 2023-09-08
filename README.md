@@ -36,11 +36,11 @@ Latest update: 7 September 2023
 <hr>
 
 ### Recap Wikidata
-This section ia a summary of the lecture [Introduction to Wikidata](https://commons.wikimedia.org/wiki/File:Wegwijzer_in_Wikidata,_Introductiecurus_Wikidata_-_Koninklijke_Bibliotheek,_6_juni_2023.pdf) ([Zenodo](https://zenodo.org/record/8006441)) (in Dutch)
+This section ia a summary of the lecture *[Introduction to Wikidata](https://commons.wikimedia.org/wiki/File:Wegwijzer_in_Wikidata,_Introductiecurus_Wikidata_-_Koninklijke_Bibliotheek,_6_juni_2023.pdf)* ([Zenodo](https://zenodo.org/record/8006441)) (in Dutch)
 
 * Wikidata (d.d. 7 Sept 2023) contains structured descriptions of [107 million things](https://www.wikidata.org/wiki/Wikidata:Statistics), since October 2012
 * [Wikidata items with geo location](https://commons.wikimedia.org/wiki/File:Wikidata_Map_May_2019_Huge.png) (as of May 2019)
-* What are the principles of Wikidata? 
+* What are the principles of Wikidata? (see also the [Wikidata introduction](https://www.wikidata.org/wiki/Wikidata:Introduction))
   - Structured descriptions of things, eg. [Eiffel Tower](https://www.wikidata.org/wiki/Q243)
   - Central storage (vs. distributed in data silos)
   - Multilingual (200+ languages) - Description of the Eiffel Tower in [English](https://www.wikidata.org/wiki/Q243?uselang=en), [Dutch](https://www.wikidata.org/wiki/Q243?uselang=nl), [Portuguese](https://www.wikidata.org/wiki/Q243?uselang=pt) and [Japanese](https://www.wikidata.org/wiki/Q243?uselang=ja) etc.
@@ -61,22 +61,18 @@ This section ia a summary of the lecture [Introduction to Wikidata](https://comm
     - Human readable, human writable --> Data available via [GUIs in HTML](https://www.wikidata.org/wiki/Q1526131)
     - Machine readable, machine writable --> Data available via [APIs in JSON](https://www.wikidata.org/w/api.php?action=wbgetentities&ids=Q1526131) , [XML/RDF](https://www.wikidata.org/w/api.php?action=wbgetentities&ids=Q1526131&props=labels&format=xml), CSV etc.
 
-<hr>
-Wat voor soort data bevat Wikidata? 
-https://kennisplatform.wikimedia.nl/artikelen/data-delen/wat-zijn-de-criteria-voor-data-op-wikidata/ 
-Wikidata is een secundaire, algemene, openbare kennisbank voor de wereld.
-
-* Secundair
-  - Niet-originele gegevens over
-  - Notenswaardige dingen (meer info) 
-  - Verifieerbaar d.m.v. betrouwbare openbare bronnen (meer info)
-* Algemeen
-  - Breed scala aan onderwerpen/klassen
-  - Relatief basale data, niet superspecialistisch
-* Openbaar
-  - Openbare gegevens
-  - Geen auteursrechten
-  - Geen privacygevoeligheden (meer info)
+* Wikidata is a *secondary, general purpose, public* knowledge base for the world.
+  - Secondary
+    - Niet-originele gegevens over
+    - Notenswaardige dingen (more info) 
+    - Verifieerbaar d.m.v. betrouwbare openbare bronnen (more info)
+  - General purpose
+    - Breed scala aan onderwerpen/klassen
+    - Relatief basale data, niet superspecialistisch
+  - Public
+    - Openbare gegevens
+    - Geen auteursrechten
+    - Geen privacygevoeligheden (more info)
 
 <hr>
 Wensen van erfgoedinstellingen waarvoor Wikidata niet geschikt is
