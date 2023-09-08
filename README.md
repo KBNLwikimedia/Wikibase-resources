@@ -75,38 +75,38 @@ This section ia a summary of the lecture *[Introduction to Wikidata](https://com
     - Geen privacygevoeligheden (more info)
 
 <hr>
-Wensen van erfgoedinstellingen waarvoor Wikidata niet geschikt is
-* Publiceren domein-specifieke / specialistische / ‘esoterische’ LOD
-* Publiceren hele grote LOD-sets (bv. catalogi, thesauri)
-* Gebruik hele specifieke/complexe/gelaagde/diepe datamodellen
-* Eigen controle over wie data mag toevoegen / muteren
-* Samenwerking met geselecteerde partners in besloten, gecontroleerde omgeving
-* Vastleggen niet-openbare data
-* Eigen controle over hosting / IT-infra
+Wishes of heritage institutions for which Wikidata is not suitable
+* Publish domain-specific / specialist / 'esoteric' LOD
+* Publish very large LOD sets (e.g. catalogues, thesauri)
+* Use very specific/complex/layered/deep data models
+* Own control over who can add/change data
+* Collaboration with selected partners in a closed, controlled environment
+* Recording non-public data
+* Own control over hosting / IT infrastructure
 
 Wikibase als oplossing!? https://commons.wikimedia.org/wiki/File:Wikibase,_de_voordelen_van_Wikidata,_zonder_de_nadelen_-_Artikel_van_Olaf_Janssen_in_InformatieProfessional_nr.08,_2019,_pagina_37.jpg, Olaf Janssen, CC BY-SA 4.0
 
-### Wat is Wikibase?
-* De open-source, gratis software waar Wikidata op draait - Wikibase is essentially a blank copy of Wikidata into which you can put your own structured data. Bron
-* Je kunt er je eigen LOD-kennisbank mee bouwen & beheren
-* Zonder de nadelen van Wikidata 
-  - Eigen datamodellen, domein-specifiek / specialistisch / ‘esoterisch’
-  - Grote datasets
-  - Eigen rechtenbeheer (wie mag bijdragen)
-  - Niet perse openbaar
-  - Eigen IT-hosting
-* Met alle voordelen van Wikidata
-  - Gericht op samenwerking en verbinding (o.a. Wikidata-community)
-  - Voor mensen en machines
-  - Gebruiksvriendelijke GUI voor gestructureerde data (Qs en Ps)
-  - Ondersteuning voor meertaligheid
-  - Versiegeschiedenis
-  - Overzichtelijke ontologie: Items, Properties, Statements etc.
-  - Output in diverse dataformaten (o.a. JSON, RDF/XML, N3)
-  - Zoeken via SPARQL
-  - MediaWiki API
-  - Ondersteuning voor tools (o.a. OpenRefine)
-  - Documentatie
+### What is Wikibase?
+* The open-source, free software that powers Wikidata - "Wikibase is essentially a blank copy of Wikidata into which you can put your own structured data" [Source](). 
+* It allows you to build & manage your own LOD knowledge base
+* Without the disadvantages of Wikidata
+   - Own data models, domain-specific / specialist / 'esoteric'
+   - Large data sets
+   - Own rights management (who is allowed to contribute)
+   - Not necessarily public
+   - Own IT hosting
+* With all the benefits of Wikidata
+   - Focused on collaboration and connection (including Wikidata community)
+   - For people and machines
+   - User-friendly GUI for structured data (Qs and Ps)
+   - Multilingualism support
+   - Version history
+   - Clear ontology: Items, Properties, Statements etc.
+   - Output in various data formats (including JSON, RDF/XML, N3)
+   - Search via SPARQL
+   - MediaWiki API
+   - Support for tools (including OpenRefine)
+   - Documentation for Wikidata is in general applicable to Wikibase as well
 
 <hr>
 Wikibase website: https://wikiba.se/
