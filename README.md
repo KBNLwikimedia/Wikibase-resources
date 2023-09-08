@@ -36,25 +36,34 @@ Latest update: 7 September 2023
 <hr>
 
 ### Recap Wikidata
-Dit blok is een samenvatting van de presentatie Wegwijzer in Wikidata, Olaf Janssen, KB, 6 juni 2023
-https://commons.wikimedia.org/wiki/File:Wegwijzer_in_Wikidata,_Introductiecurus_Wikidata_-_Koninklijke_Bibliotheek,_6_juni_2023.pdf 
-Zenodo: https://zenodo.org/record/8006441
+This section ia a summary of the lecture [Introduction to Wikidata](https://commons.wikimedia.org/wiki/File:Wegwijzer_in_Wikidata,_Introductiecurus_Wikidata_-_Koninklijke_Bibliotheek,_6_juni_2023.pdf) ([Zenodo](https://zenodo.org/record/8006441)) (in Dutch)
 
-Wikidata bevat gestructureerde beschrijvingen van 106M dingen sinds okt 2012, volgens https://www.wikidata.org/wiki/Wikidata:Statistics, dd 3-5-2023
-o.a: Wetenschappelijke artikelen - Mensen - Dieren en planten - Gebeurtenissen - Landen, provincies, gemeentes, steden, dorpen - Straten, wegen, pleinen - Gebouwen - Voertuigen - Bedrijven en instellingen - Kunstwerken (film, muziek, schilderijen etc.) - Chemische stoffen - Astromische objecten - Genen - e.v.a.
-Wikidata-items met geolocatie, mei 2019 - https://commons.wikimedia.org/wiki/File:Wikidata_Map_May_2019_Huge.png, Addshore, CC0, via Wikimedia Commons
-
-Wat zijn de uitgangspunten van Wikidata? 
-1. Gestructureerde beschrijvingen van dingen
-2. Centrale opslag (vs gedistribueerd – data silo’s)
-3. Meertalig (200+ talen) - Beschrijving van de Eiffeltoren - https://www.wikidata.org/wiki/Q243 (Nederlandstalige, Engelstalige, Portugese en Japanse interface)
-4. Linked data - Things, not strings - Geen platte tekst, maar klikbare links - Onderling verbonden: https://www.wikidata.org/wiki/Q243 (Eiffeltoren) en https://www.wikidata.org/wiki/Q20882 (Gustave Eiffel) - Verbonden met andere databases
-5. Open & vrij - Gratis, geen trackers, geen ads - Geen auteurs- of databankrechten (CC0-licentie - https://creativecommons.org/publicdomain/zero/1.0/) - Iedereen mag data hergebruiken: bevragen, delen, kopiëren, bewerken, downloaden, verkopen etc. - Iedereen mag data bijdragen/bewerken toevoegen, verbeteren, verwijderen, samenvoegen etc. --> community
-6. Community - Internationaal - 24K bewerkers - Onder de vlag van de Wikimedia Foundation  zusterproject van Wikipedia, Commons etc. 
-7. Voor mensen en machines - Mensleesbaar, mensschrijfbaar --> Data beschikbaar via GUIs in HTML, https://www.wikidata.org/wiki/Q1526131 (Koninklijke bibliotheek) - Machineleesbaar, machineschrijfbaar --> Data beschikbaar via APIs in JSON, XML/RDF, CSV etc.,  https://www.wikidata.org/w/api.php?action=wbgetentities&ids=Q1526131   https://www.wikidata.org/w/api.php?action=wbgetentities&ids=Q1526131&props=labels&format=xml 
+* Wikidata (d.d. 7 Sept 2023) contains structured descriptions of [107 million things](https://www.wikidata.org/wiki/Wikidata:Statistics), since October 2012
+* [Wikidata items with geo location](https://commons.wikimedia.org/wiki/File:Wikidata_Map_May_2019_Huge.png) (as of May 2019)
+* What are the principles of Wikidata? 
+  - Structured descriptions of things, eg. [Eiffel Tower](https://www.wikidata.org/wiki/Q243)
+  - Central storage (vs. distributed in data silos)
+  - Multilingual (200+ languages) - Description of the Eiffel Tower in [English](https://www.wikidata.org/wiki/Q243?uselang=en), [Dutch](https://www.wikidata.org/wiki/Q243?uselang=nl), [Portuguese](https://www.wikidata.org/wiki/Q243?uselang=pt) and [Japanese](https://www.wikidata.org/wiki/Q243?uselang=ja) etc.
+  - Linked data
+    - Things, not strings, no flat text strings, but clicklable links
+    - Interconcected Wikidata items, eg. [Eiffel Tower](https://www.wikidata.org/wiki/Q243) --> [named after](https://www.wikidata.org/wiki/Property:P138) --> [Gustave Eiffel](https://www.wikidata.org/wiki/Q20882)
+    - Wikidata is connected to pm [8.200 external databases](https://rawgit.com/johnsamuelwrites/wdprop/master/datatype.html?datatype=wikibase:ExternalId)
+  - Open & free
+    - Free, no trackers, no ads, no usage fee.
+    - No copyright or database rights, all data is available under the [CC0 license](https://creativecommons.org/publicdomain/zero/1.0/).
+    - Everyone can reuse data: query, share, copy , edit, download, sell, etc.
+    - Anyone can contribute, edit, add, improve, delete, merge data, etc. --> Community
+  - Community
+    - International
+    - Pm. 24K editors
+    - Under the flag of the Wikimedia Foundation. Wikidata is a sister project of Wikipedia, Wikimedia Commons etc.
+  - For humans and machines
+    - Human readable, human writable --> Data available via [GUIs in HTML](https://www.wikidata.org/wiki/Q1526131)
+    - Machine readable, machine writable --> Data available via [APIs in JSON](https://www.wikidata.org/w/api.php?action=wbgetentities&ids=Q1526131) , [XML/RDF](https://www.wikidata.org/w/api.php?action=wbgetentities&ids=Q1526131&props=labels&format=xml), CSV etc.
 
 <hr>
-Wat voor soort data bevat Wikidata? https://kennisplatform.wikimedia.nl/artikelen/data-delen/wat-zijn-de-criteria-voor-data-op-wikidata/ 
+Wat voor soort data bevat Wikidata? 
+https://kennisplatform.wikimedia.nl/artikelen/data-delen/wat-zijn-de-criteria-voor-data-op-wikidata/ 
 Wikidata is een secundaire, algemene, openbare kennisbank voor de wereld.
 
 * Secundair
