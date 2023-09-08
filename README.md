@@ -84,14 +84,14 @@ This section ia a summary of the lecture *[Introduction to Wikidata](https://com
   - Own control over hosting / IT infrastructure
 
 ### What is Wikibase?
-* The open-source, free software that powers Wikidata - "Wikibase is essentially a blank copy of Wikidata into which you can put your own structured data" [source](https://heardlibrary.github.io/digital-scholarship/host/wikidata/bot/). 
+* The open-source, free software that powers Wikidata - "Wikibase is essentially a blank copy of Wikidata into which you can put your own structured data" ([source](https://heardlibrary.github.io/digital-scholarship/host/wikidata/bot/)). 
 * It allows you to build & manage your own LOD knowledge base
 * Without the disadvantages of Wikidata
    - You can create your own data models, as domain-specific/specialist/esoteric as you want/need.
    - Large data sets are no problem
-   - Custom rights management (who is allowed to contribute)
-   - Not necessarily public, Wikibase instance can be non-public
-   - Own IT hosting
+   - Custom rights management (control over who is allowed to contribute)
+   - Wikibase instances can be non-public
+   - You can host your own instance
 * With all the benefits of Wikidata
    - Focused on collaboration and connection (including Wikidata community)
    - For people and machines
