@@ -17,7 +17,7 @@ Latest update: 13 September 2023
 
 ### Contents
 - [Recap Wikidata](#recap-wikidata)
-  * [Institutional requirements](#institutional-requirements)
+  * [Institutional use cases incompatible with Wikidata](#institutional-use-cases-incompatible-with-Wikidata)
 - [What is Wikibase?](#what-is-wikibase-)
 - [Examples of institutions/projects using Wikibase](#examples-of-institutions-projects-using-wikibase)
   * [Wikibase projects in libraries](#wikibase-projects-in-libraries)
@@ -75,7 +75,7 @@ This section ia a summary of the lecture *[Introduction to Wikidata](https://com
     - Without copyright issues
     - Without privacy issues ([more info](https://www.wikidata.org/wiki/Wikidata:Living_people))
 
-#### Institutional requirements
+#### Institutional use cases incompatible with Wikidata
 * Institutional use cases for which Wikidata is *not* suitable
   - Publish domain-specific / specialist / 'esoteric' LOD
   - Publish very large LOD sets (e.g. catalogues, thesauri)
@@ -191,8 +191,10 @@ Wikibase is being evaluated by libraries as a tool to help them store and manage
   - *[Analysing and promoting ontology interoperability in Wikibase](https://wikidataworkshop.github.io/2022/papers/Wikidata_Workshop_2022_paper_9774.pdf)*, D.Dobriy and A. Polleres (2022)
   - *[Wikibase as an Infrastructure for Knowledge Graphs: the EU Knowledge Graph](https://hal.science/hal-03353225/document)*, Diefenbach et al. (2021), see "5. Comparing classical approach vs Wikibase"  
   - *[Wikibase, or The search for the unicorn](https://doi.org/10.36253/jlis.it-484)*, Bergamin, G. (2022), JLIS.It, 13(3), 49–62. 
-* Solution by National library of Greece (NLG) - [Implementing RDA in Wikibase](http://www.rda-rsc.org/sites/all/files/NLG_Wikibase.pdf), C. Bratsas and L. Ioannidis of Open Knowledge Greece
-* Summary of the NLG approach written by Marieke Moolenaar (KB, internal email, 21-8-2023):<br/>
+* Analysis of the problem by Marieke Moolenaar (KB, August 2023)<br/>
+<sub>*Wikibase uses a derivative of Blazegraph as its linked data storage. Let's call this the Wikibase-Blazegraph-DB. Blazegraph is a so-called graph DB or triple store, so you should be able to store RDF triples in it, thus also RDA/RDF triples and Schema.org triples. Currently, default Wikibase instances are set up in such a way that only Wikibase Q-P-Q triples can be included in the Wikibase-Blazegraph-DB via an update process from the MediaWiki-MySQL database. Schema.org or RDA/RDF triples can never enter the Wikibase-Blazegraph-DB via that update process. So if you want to get triples with other vocabulary into the KB-Wikibase-Blazegraph-DB, you will have to put them in there via another way than via the Wikibase-MediaWiki-GUI and the MediaWiki-MySQL database upate process.*</sub>
+* Workaround by National library of Greece (NLG) - [Implementing RDA in Wikibase](http://www.rda-rsc.org/sites/all/files/NLG_Wikibase.pdf), C. Bratsas and L. Ioannidis of Open Knowledge Greece
+* Summary of the NLG approach written by Marieke Moolenaar (KB, August 2023):<br/>
 <sub>*The Greek Wikibase is only used as a graphical interface (front-end) for entering thesaurus data by library staff.
 They do *not* use their Wikibase to publish linked data, but only for data entry purposes. The reason they do not use Wikibase for publishing linked data is that in Wikibase you can only use the proprietary Wikibase metadata model, thus external vocabularies (such as RDA/RDF) cannot be used in Wikibase. To be able to enter new thesaurus triples via Wikibase screens/GUI, the NLG has made a translation/mapping from RDA/RDF to Wikibase entities (Ps and Qs). They periodically copy all created thesaurus triples from the Wikibase graph to another triple store ([Triply](https://triply.cc/)). To do this, they translate their Wikibase triples back to RDA/RDF triples. In Triply they store and publish the real RDA/RDF vocabulary triples, which are not (or cannot be) present in Wikibase.*</sub>
 * [How to load up schema.org data dumps into Blazegraph](https://github.com/schemaorg/schemaorg/wiki/BlazeGraphSPARQLHowto) by Dan Brickley, August 2016  
