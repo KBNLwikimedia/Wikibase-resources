@@ -85,15 +85,15 @@ This section ia a summary of the lecture *[Introduction to Wikidata](https://com
   - Own control over hosting / IT infrastructure
 
 ### What is Wikibase?
-* The open-source, free software that powers Wikidata - "Wikibase is essentially a blank copy of Wikidata into which you can put your own structured data" ([source](https://heardlibrary.github.io/digital-scholarship/host/wikidata/bot/)). 
-* It allows you to build & manage your own LOD knowledge base
-* Without the disadvantages of Wikidata
+1. The open-source, free software that powers Wikidata - "Wikibase is essentially a blank copy of Wikidata into which you can put your own structured data" ([source](https://heardlibrary.github.io/digital-scholarship/host/wikidata/bot/)),
+2. Allowing you to build & manage your own LOD knowledge base,
+3. Without the disadvantages of Wikidata,
    - You can create your own data models, as domain-specific/specialist/esoteric as you want/need.
    - Large data sets are no problem
    - Custom rights management (control over who is allowed to contribute)
    - Wikibase instances can be non-public
    - You can host your own instance
-* With all the benefits of Wikidata
+4. With all the benefits of Wikidata
    - Focused on collaboration and connection (including Wikidata community)
    - For people and machines
    - User-friendly GUI for structured data
@@ -113,29 +113,30 @@ This section ia a summary of the lecture *[Introduction to Wikidata](https://com
 
 <hr>
 
-### Voorbeelden van instellingen/projecten die Wikibase gebruiken
+### Examples of institutions/projects using Wikibase
+* [Wikidata](https://www.wikidata.org/wiki/Wikidata:Main_Page) 
+* [Rhizome Artbase](https://artbase.rhizome.org/wiki/Main_Page)
+  - Rhizome = art organization in NYC
+  - Artbase = archive of born-digital art 1983-present.
+  - First Wikibase instance outside of Wikimedia projects.
+  - [Artworks in the ArtBase with more than one artist](https://artbase.rhizome.org/wiki/Query/example1), visualized as a graph with images. 
+* [Enslaved.org](https://enslaved.org)
+  - LOD platform containing ±1M records (people, events, places, and sources) related to the transatlantic slave trade
+  - [Data dumps from the Wikibase](https://lod.enslaved.org/wiki/Meta:Main_Page) 
+  - *[Stories of the Enslaved told using Wikibase](https://tech-news.wikimedia.de/en/2021/02/18/stories-of-the-enslaved-told-using-wikibase/)*, article by Elisabeth Giesemann, 18 February 2021 
+* [FactGrid](https://database.factgrid.de/wiki/Main_Page) 
+  - Open collaborative international Wikibase knowledge graph for historical research, [312 participants](https://tinyurl.com/2kl7a7gt)
+  - [FactGrid projects, by era](https://database.factgrid.de/wiki/FactGrid:Projects), for example [Paris to download](https://database.factgrid.de/wiki/FactGrid:Nineteenth_Century#Paris_to_download), a freely downloadable dataset with geographic coordinates and administrative information from all the houses and streets of Paris in c. 1820. SPARQL: [All the houses and streets of Paris c. 1820](https://tinyurl.com/yf4fvrf7) ([source article](https://blog.factgrid.de/archives/2333) by Bruno Belhoste, 14-11-2021) 
+* [The Aviation Safety Network Wikibase](https://aviation-safety.net/wikibase)
+  - The [ASN](https://aviation-safety.net/about/) provides up-to-date, complete and reliable authoritative information on airliner accidents and safety issues. 
+  - This Wikibase is updated regularly by a large user community and contains descriptions of more than 258,000 accidents involving light aircraft, military aircraft, helicopters, gyroplanes, gliders, hot air balloons and UAVs since 1905.
 
-* Wikidata: https://www.wikidata.org/wiki/Wikidata:Main_Page 
-
-* Rhizome Artbase : https://artbase.rhizome.org/wiki/Main_Page Rhizome = art organization in NYC - Artbase = archive of born-digital art 1983-present.) - First Wikibase instance outside of Wikimedia projects - https://artbase.rhizome.org/wiki/Query/example1 
-
-* Enslaved.org: https://enslaved.org + https://lod.enslaved.org/wiki/Meta:Main_Page LOD platform containing ±1M records (people, events, places, and sources) related to the transatlantic slave trade 
- https://tech-news.wikimedia.de/en/2021/02/18/stories-of-the-enslaved-told-using-wikibase/ 
- 
-* FactGrid: https://database.factgrid.de/wiki/Main_Page 
- Open collaborative international Wikibase knowledge graph for historical research, 312 participants
- FactGrid projects, by era: https://database.factgrid.de/wiki/FactGrid:Projects 
- Paris to download: https://database.factgrid.de/wiki/FactGrid:Nineteenth_Century#Paris_to_download 
- All the houses and streets of Paris c. 1820 in a data set with geographic coordinates and administrative information free to download 
- SPARQL: All the houses and streets of Paris c. 1820 https://tinyurl.com/yf4fvrf7 + https://blog.factgrid.de/archives/2333 
-
-* Aviation Safety Network: https://aviation-safety.net/about/ 
- Provides up-to-date, complete and reliable authoritative information on airliner accidents and safety issues. 
- The ASN Wikibase: https://aviation-safety.net/wikibase - updated regularly by a large user community and contains descriptions of more than 258,000 accidents involving light aircraft, military aircraft, helicopters, gyroplanes, gliders, hot air balloons and UAVs since 1905.
-
-* EU Knowlegde Graph: https://linkedopendata.eu/wiki/The_EU_Knowledge_Graph Contains information about 1.9M projects financed by the EU and 700K beneficiaries of European projects - https://hal.archives-ouvertes.fr/hal-03353225/document + https://www.youtube.com/watch?v=PyBWo-ka9JU 
- Kohesio website: https://kohesio.ec.europa.eu - Frontend voor EU Knowledge Graph https://www.wikimedia.de/presse/european-commission-goes-open-source-new-project-kohesio-uses-wikimedias-software-wikibase/ 
- Verken bv EU-projecten in je buurt - 1.259 EU-projecten in Zuid-Holland - https://kohesio.ec.europa.eu/nl/?kaart%20regio=Nederland,Zuid-Holland,Q3119#mijn%20regio 
+* [EU Knowlegde Graph](https://linkedopendata.eu/wiki/The_EU_Knowledge_Graph)
+  - Contains information about 1.9M projects financed by the EU and 700K beneficiaries of European projects
+  - *[Wikibase as an Infrastructure for Knowledge Graphs: the EU Knowledge Graph](https://hal.archives-ouvertes.fr/hal-03353225/document)*, D. Diefenbach, M. De Wilde and S.Alipio, 30 September 2021 -  [WikidataCon 2021 video recording.](https://www.youtube.com/watch?v=PyBWo-ka9JU)
+  - [Kohesio website](https://kohesio.ec.europa.eu) is a frontend of the EU Knowledge Graph
+  - *[European Commission goes Open Source: New Project Kohesio uses Wikimedia’s Software Wikibase](https://www.wikimedia.de/presse/european-commission-goes-open-source-new-project-kohesio-uses-wikimedias-software-wikibase/)*, 17-03-2022
+  - [Explore EU projects in your country/region/neighbourhood](https://kohesio.ec.europa.eu), such as [1.259 EU projects](https://kohesio.ec.europa.eu/nl/?kaart%20regio=Nederland,Zuid-Holland,Q3119) in the Dutch province of South-Holland (dd. Sept 2023) 
 
 * Kunstmuseum API: https://api.kunstmuseum.nl/wiki/Kunstmuseum_API Wikibase om data voor websites Delftsaardewerk.nl, Van Gogh Worldwide en Aziatisch keramiek vanuit verschillende musea te importeren en te leveren via een centrale API.
  Delftsaardewerk.nl, Collectie Kunstmuseum Den Haag, object 0400098: https://delftsaardewerk.nl/bekijken/voorwerp/gemeentemuseum-den-haag/400098 + https://api.kunstmuseum.nl/wiki/Item:Q2559 
