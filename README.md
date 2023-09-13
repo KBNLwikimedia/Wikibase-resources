@@ -14,7 +14,7 @@ This overview is heavily inspired by the *[Wikibase knowledge graphs, A collecti
 
 This page is maintained by Olaf Janssen, Wikimedia coordinator of KB. See his [Wikidata user page](https://www.wikidata.org/wiki/User:OlafJanssen) and [expert page on kb.nl](https://www.kb.nl/over-ons/experts/olaf-janssen) for contact details.
 
-Latest update: 7 September 2023
+Latest update: 13 September 2023
 <hr>
 
 ### Contents
@@ -137,16 +137,16 @@ This section ia a summary of the lecture *[Introduction to Wikidata](https://com
   - [Kohesio website](https://kohesio.ec.europa.eu) is a frontend of the EU Knowledge Graph
   - *[European Commission goes Open Source: New Project Kohesio uses Wikimedia’s Software Wikibase](https://www.wikimedia.de/presse/european-commission-goes-open-source-new-project-kohesio-uses-wikimedias-software-wikibase/)*, 17-03-2022
   - [Explore EU projects in your country/region/neighbourhood](https://kohesio.ec.europa.eu), such as [1.259 EU projects](https://kohesio.ec.europa.eu/nl/?kaart%20regio=Nederland,Zuid-Holland,Q3119) in the Dutch province of South-Holland (dd. Sept 2023) 
-
-* Kunstmuseum API: https://api.kunstmuseum.nl/wiki/Kunstmuseum_API Wikibase om data voor websites Delftsaardewerk.nl, Van Gogh Worldwide en Aziatisch keramiek vanuit verschillende musea te importeren en te leveren via een centrale API.
- Delftsaardewerk.nl, Collectie Kunstmuseum Den Haag, object 0400098: https://delftsaardewerk.nl/bekijken/voorwerp/gemeentemuseum-den-haag/400098 + https://api.kunstmuseum.nl/wiki/Item:Q2559 
- 
-* DNB/GND: GND - Gemeinsame Normdatei, Integrated authority file for German speaking countries, 8 M authority records on persons, corporate bodies, subject headings, geographical names, works etc. https://www.dnb.de/EN/Professionell/Standardisierung/GND/gnd_node.html Wikibase as a second home for the GND - To collaboratively edit and maintain authority records for the entire GLAM field and digital humanities.
- https://tech-news.wikimedia.de/en/2020/03/04/wikibase-and-gnd/ + LA BIBLIOTECA PIATTAFORMA DELLA CONOSCENZA - Collaborativa, inclusiva, reticolare - 2021 (vanaf p 145)
- 
-* Meer Wikibase-instanties
-  - https://wikibase.world/wiki/Project:Home -- [List of WB instances](https://tinyurl.com/2jkres9t)
-  - https://github.com/shigapov/wikibase-knowledge-graphs#awesome-wikibase-instances 
+* [Kunstmuseum API](https://api.kunstmuseum.nl/wiki/Kunstmuseum_API)
+  - Wikibase by [Kunstmuseum Den Haag](https://www.kunstmuseum.nl/en) to import and deliver data for the websites [Delftsaardewerk.nl](https://api.kunstmuseum.nl/wiki/Project/Delftsaardewerk), [Van Gogh Worldwide](https://api.kunstmuseum.nl/wiki/Project/van_Gogh_Worldwide) and [Aziatischekeramiek.nl](https://api.kunstmuseum.nl/wiki/Project/Aziatisch_keramiek) from various museums via a central API.
+  - For instance *Object 0400098* in the collection of the Kunstmuseum Den Haag: on [Delftsaardewerk.nl](https://delftsaardewerk.nl/bekijken/voorwerp/gemeentemuseum-den-haag/400098) and [in the Wikibase](https://api.kunstmuseum.nl/wiki/Item:Q2559) 
+* Deutsche Nationalbibliothek and GND
+  - GND = [Gemeinsame Normdatei](https://www.dnb.de/EN/Professionell/Standardisierung/GND/gnd_node.html), Integrated authority file for German speaking countries, 8 M authority records on persons, corporate bodies, subject headings, geographical names, works etc.
+  - [Wikibase as a second home for the GND](https://drive.google.com/file/d/1PyUGNeZUx5kmyGJF_cwMPFY4HmT5Kj8_/view) (p. 165) - A Wikibase to collaboratively edit and maintain authority records for the entire GLAM field and digital humanities.
+  - *[Could you wikify an authority file? Wikibase has been evaluated for the Integrated Authority File (GND)](https://tech-news.wikimedia.de/en/2020/03/04/wikibase-and-gnd/)* by Barbara Fischer and Jens Ohlig, 4 March 2020
+* More Wikibase instances
+  - [Wikibase World](https://wikibase.world/wiki/Project:Home) - [List of WB instances](https://tinyurl.com/2jkres9t)
+  - [Awesome Wikibase instances](https://github.com/shigapov/wikibase-knowledge-graphs#awesome-wikibase-instances) by Renat Shigapov
 
 <hr>
 
@@ -164,6 +164,7 @@ Meerdere bibliotheken hebben pilots, experimenten en evaluaties met Wikibase ged
 * OCLC, Project Passage: https://www.oclc.org/content/dam/research/publications/2019/oclcresearch-creating-library-linked-data-with-wikibase-project-passage-a4.pdf
 * Bibliotheken VS, Use cases for institutional Wikibase instances: https://github.com/timothy-mendenhall/wikibase-use-cases/blob/master/UseCases-2020.md 
 * DNB, GND meets Wikibase: https://wiki.dnb.de/pages/viewpage.action?pageId=147754828 + https://wiki.dnb.de/pages/viewpage.action?pageId=167019461
+[La Bibliotheca piattaforma della conoscenza - Collaborativa, inclusiva, reticolare](https://drive.google.com/file/d/1PyUGNeZUx5kmyGJF_cwMPFY4HmT5Kj8_/view) (2021, p. 145)
 * DBN/BnF: Wikibase for Cultural Heritage and Academia, Perceived pros and cons of Wikibase as a solution - https://joinup.ec.europa.eu/sites/default/files/custom-page/attachment/2020-11/Parallel-track-4_B-Fischer_J-Thill_A-Angjeli%20final%20ppt.pdf
 * TIB/NFDI (Duitsland): Examining Wikidata and Wikibase in the context of research data management applications: https://blogs.tib.eu/wp/tib/2022/03/16/examining-wikidata-and-wikibase-in-the-context-of-research-data-management-applications https://www.youtube.com/watch?v=RPMkuDxHJtI Wikidata and Wikibase as complementary research services for cultural heritage data: https://blogs.tib.eu/wp/tib/2022/03/17/wikidata-and-wikibase-as-complementary-research-services-for-cultural-heritage-data/
 * TIB/NFDI (Duitsland): https://zenodo.org/record/7738424 + http://docs.google.com/spreadsheets/d/1FNU8857JwUNFXmXAW16lgpjLq5TkgBUuafqZF-yo8_I/edit?usp=share_link  
