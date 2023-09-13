@@ -139,7 +139,7 @@ This section ia a summary of the lecture *[Introduction to Wikidata](https://com
 * [Kunstmuseum API](https://api.kunstmuseum.nl/wiki/Kunstmuseum_API)
   - Wikibase by [Kunstmuseum Den Haag](https://www.kunstmuseum.nl/en) to import and deliver data for the websites [Delftsaardewerk.nl](https://api.kunstmuseum.nl/wiki/Project/Delftsaardewerk), [Van Gogh Worldwide](https://api.kunstmuseum.nl/wiki/Project/van_Gogh_Worldwide) and [Aziatischekeramiek.nl](https://api.kunstmuseum.nl/wiki/Project/Aziatisch_keramiek) from various museums via a central API.
   - For instance *Object 0400098* in the collection of the Kunstmuseum Den Haag: on [Delftsaardewerk.nl](https://delftsaardewerk.nl/bekijken/voorwerp/gemeentemuseum-den-haag/400098) and [in the Wikibase](https://api.kunstmuseum.nl/wiki/Item:Q2559) 
-* Deutsche Nationalbibliothek and GND
+* Deutsche Nationalbibliothek (DNB) and GND
   - GND = [Gemeinsame Normdatei](https://www.dnb.de/EN/Professionell/Standardisierung/GND/gnd_node.html), Integrated authority file for German speaking countries, 8 M authority records on persons, corporate bodies, subject headings, geographical names, works etc.
   - [Wikibase as a second home for the GND](https://drive.google.com/file/d/1PyUGNeZUx5kmyGJF_cwMPFY4HmT5Kj8_/view) (p. 165) - A Wikibase to collaboratively edit and maintain authority records for the entire GLAM field and digital humanities.
   - *[Could you wikify an authority file? Wikibase has been evaluated for the Integrated Authority File (GND)](https://tech-news.wikimedia.de/en/2020/03/04/wikibase-and-gnd/)* by Barbara Fischer and Jens Ohlig, 4 March 2020
@@ -152,41 +152,72 @@ This section ia a summary of the lecture *[Introduction to Wikidata](https://com
 
 ### Wikibase projects in libraries
 Wikibase is being evaluated by libraries as a tool to help them store and manage their structured data, as well as connect to the world of linked open data. 
-* National Library of Germany (DNB), see above, and below 
-* National Library of France (BnF) ([more info](https://commons.wikimedia.org/w/index.php?title=File:Wikibase_for_FNE.pdf)). See also below 
-* National Library of the Czech Republic ([more info](https://blog.wikimedia.cz/2021/09/13/bringing-czech-authority-files-into-21st-century-integration-with-wikidata/)) 
-* National Library of Luxembourg ([more info](https://swib.org/swib21/slides/05-03-gayo.pdf)) 
-* National library of Greece ([more info](https://www.youtube.com/watch?v=TPIS11QK8jI)) 
-* National library of the Netherlands (KB)
-* The Smithsonian Libraries ([more info](https://blog.library.si.edu/blog/2022/02/17/wikidata-projects/))
+* Europe
+  - National Library of Germany (DNB), *"GND meets Wikibase", a cooperation*: [Part 1](https://wiki.dnb.de/pages/viewpage.action?pageId=147754828) and [part 2](https://wiki.dnb.de/pages/viewpage.action?pageId=167019461). See also *[A Voice in the Orchestra of Opening the GND](https://drive.google.com/file/d/1PyUGNeZUx5kmyGJF_cwMPFY4HmT5Kj8_/view)* by Barbara Fischer, DNB (p. 145 onwards)
+  - German National Library of Science and Technology (TIB): *[Examining Wikidata and Wikibase in the context of research data management applications](https://blogs.tib.eu/wp/tib/2022/03/16/examining-wikidata-and-wikibase-in-the-context-of-research-data-management-applications)* ([video](https://www.youtube.com/watch?v=RPMkuDxHJtI)) and *[Wikidata and Wikibase as complementary research services for cultural heritage data](https://blogs.tib.eu/wp/tib/2022/03/17/wikidata-and-wikibase-as-complementary-research-services-for-cultural-heritage-data/)* (March 2022)
+  - TIB/NFDI (Germany): [Linked Open Data Management Services: A Comparison](https://zenodo.org/record/7738424), including Wikibase (15 March 2023)
+  - National Library of France (BnF) ([more info](https://commons.wikimedia.org/w/index.php?title=File:Wikibase_for_FNE.pdf)).
+  - DBN & BnF: [Wikibase for Cultural Heritage and Academia, Perceived pros and cons of Wikibase as a solution](https://joinup.ec.europa.eu/sites/default/files/custom-page/attachment/2020-11/Parallel-track-4_B-Fischer_J-Thill_A-Angjeli%20final%20ppt.pdf) (slide 7) 
+  - National Library of the Czech Republic ([more info](https://blog.wikimedia.cz/2021/09/13/bringing-czech-authority-files-into-21st-century-integration-with-wikidata/)) 
+  - National Library of Luxembourg ([more info](https://swib.org/swib21/slides/05-03-gayo.pdf)) 
+  - National library of Greece ([more info](https://www.youtube.com/watch?v=TPIS11QK8jI)) 
+  - National library of the Netherlands (KB)
+* USA
+  - The Smithsonian Libraries ([more info](https://blog.library.si.edu/blog/2022/02/17/wikidata-projects/))
+  - OCLC, Wikibase pilot, a.k.a. [Project Passage](https://www.oclc.org/content/dam/research/publications/2019/oclcresearch-creating-library-linked-data-with-wikibase-project-passage-a4.pdf) 
+  - Academic libraries USA, [Use cases for institutional Wikibase instances](https://github.com/timothy-mendenhall/wikibase-use-cases/blob/master/UseCases-2020.md) 
+<hr>
 
-Several libraries have done pilots, experiments and evaluations with Wikibase. What are their findings?
-* OCLC, Wikibase pilot, a.k.a. [Project Passage](https://www.oclc.org/content/dam/research/publications/2019/oclcresearch-creating-library-linked-data-with-wikibase-project-passage-a4.pdf) 
-* Academic libraries USA, [Use cases for institutional Wikibase instances](https://github.com/timothy-mendenhall/wikibase-use-cases/blob/master/UseCases-2020.md) 
-* DNB, "GND meets Wikibase", a cooperation: [Part 1](https://wiki.dnb.de/pages/viewpage.action?pageId=147754828) and [part 2](https://wiki.dnb.de/pages/viewpage.action?pageId=167019461). See also *[A Voice in the Orchestra of Opening the GND](https://drive.google.com/file/d/1PyUGNeZUx5kmyGJF_cwMPFY4HmT5Kj8_/view)* by Barbara Fischer, DNB (p. 145 onwards)
-* DBN & BnF: [Wikibase for Cultural Heritage and Academia, Perceived pros and cons of Wikibase as a solution](https://joinup.ec.europa.eu/sites/default/files/custom-page/attachment/2020-11/Parallel-track-4_B-Fischer_J-Thill_A-Angjeli%20final%20ppt.pdf) (slide 7)
-* German National Library of Science and Technology (TIB): *[Examining Wikidata and Wikibase in the context of research data management applications](https://blogs.tib.eu/wp/tib/2022/03/16/examining-wikidata-and-wikibase-in-the-context-of-research-data-management-applications)* ([video](https://www.youtube.com/watch?v=RPMkuDxHJtI)) and *[Wikidata and Wikibase as complementary research services for cultural heritage data](https://blogs.tib.eu/wp/tib/2022/03/17/wikidata-and-wikibase-as-complementary-research-services-for-cultural-heritage-data/)* (March 2022)
-* TIB/NFDI (Germany): [Linked Open Data Management Services: A Comparison](https://zenodo.org/record/7738424) (15 March 2023)
+### WB components & architecture 
+* Diefenbach et al. (2021), *[Wikibase as an Infrastructure for Knowledge Graphs: the EU Knowledge Graph](https://hal.science/hal-03353225/document)*, see "3.1 Wikibase infrastructure"  
+* [Wikibase architecture documentation](https://wmde.github.io/wikidata-wikibase-architecture ) 
 
 <hr>
 
-### 1) WB componenten & architectuur 
-Diefenbach et al (2021), “Wikibase as an Infrastructure for Knowledge Graphs: the EU Knowledge Graph” - https://hal.science/hal-03353225/document MariaDB = relationale MySQL DB BlazeGraph = RDF triple store Query service UI = SPARQL
-WB architecture documentation: https://wmde.github.io/wikidata-wikibase-architecture 
+### Wikibase data model
+* [Simplified Wikibase data model](https://www.mediawiki.org/wiki/Wikibase/DataModel/Primer) 
+* EU Knowledge Graph: “Amsterdam is the capital of the Netherlands" --> Triple:
+  - Item = [The Netherlands (Q19)](https://linkedopendata.eu/wiki/Item:Q19)
+  - Property = [Captital city (P27)](https://linkedopendata.eu/wiki/Property:P27)
+  - Value: [Amsterdam (Q43)](https://linkedopendata.eu/wiki/Item:Q43)
+* [Version history and rollback](https://linkedopendata.eu/w/index.php?title=Item:Q43&action=history) (for Q43)
+* [Wikibase conceptual data model](https://www.mediawiki.org/wiki/Wikibase/DataModel) 
 
-### 2) Wikibase datamodel Hoe worden dingen in een Wikibase beschreven?
- Wikibase datamodel (simpel) : https://www.mediawiki.org/wiki/Wikibase/DataModel/Primer 
-Amsterdam in de EU Knowlegde Graph, “Amsterdam is de hoofdstad van Nederland”. Triple: - Item: Nederland - https://linkedopendata.eu/wiki/Item:Q19  - Eigenschap: Hoofdstad - https://linkedopendata.eu/wiki/Property:P27 - Waarde: Amsterdam - https://linkedopendata.eu/wiki/Item:Q43
-Opbouw datamodel: - Unieke identifier Q43 in https://linkedopendata.eu/wiki/Item:Q43 - Meertalige fingerprint: Label, Beschrijving, Aliases (Ook bekend als) - Statement: P32 + Q19 - Qualifier met P33 - Bronvermelding - Externe identifiers (P’s): Amsterdam in andere databases
-Versiegeschiedenis: https://linkedopendata.eu/w/index.php?title=Item:Q43&action=history
-Wikibase datamodel (conceptueel) : https://www.mediawiki.org/wiki/Wikibase/DataModel 
+#### Using alternative vocabularies in Wikibase 
+* As explained [above](#wikibase-data-model) Wikibase has its own unique data model, which has its limitations. To what extent can you include other vocabularies (such as [RDA](https://en.wikipedia.org/wiki/Resource_Description_and_Access) and [Schema.org](https://en.wikipedia.org/wiki/Schema.org)) into a Wikibase?
 
-#### Andere datamodellen in Wikibase 
-Wikibase heeft een eigen uniek datamodel, daar zitten beperkingen aan. 
-In hoeverre kun je andere (door de KB gebruikte) datamodellen (RDA, schema.org) in een WB opnemen?
-Literatuur over beperkingen datamodel Wikibase - https://wikidataworkshop.github.io/2022/papers/Wikidata_Workshop_2022_paper_9774.pdf - Wikidata’22: Wikidata workshop at ISWC 2022 - daniil.dobriy@wu.ac.at (D.Dobriy); axel.polleres@wu.ac.at (A. Polleres) - CC BY 4.0 – CEUR Workshop Proceedings, http://ceur-ws.org, ISSN 1613-0073 - Diefenbach et al (2021), “Wikibase as an Infrastructure for Knowledge Graphs: the EU Knowledge Graph” - https://hal.science/hal-03353225/document - Bergamin, G. (2022). Wikibase, or The search for the unicorn. JLIS.It, 13(3), 49–62. https://doi.org/10.36253/jlis.it-484
-Oplossingsrichting door National Library of Greece (NLG) - http://www.rda-rsc.org/sites/all/files/NLG_Wikibase.pdf - https://www.youtube.com/watch?v=TPIS11QK8jI - Samenvatting door Marieke Moolenaar (KB), interne email, 21-8-2023
-Analyse door Marieke Moolenaar: https://plein.kb.nl/thoughts/25980 + https://github.com/schemaorg/schemaorg/wiki/BlazeGraphSPARQLHowto  
+* Literature about the limitations of the Wikibase model: - https://wikidataworkshop.github.io/2022/papers/Wikidata_Workshop_2022_paper_9774.pdf - Wikidata’22: Wikidata workshop at ISWC 2022 - daniil.dobriy@wu.ac.at (D.Dobriy); axel.polleres@wu.ac.at (A. Polleres) - CC BY 4.0 – CEUR Workshop Proceedings, http://ceur-ws.org, ISSN 1613-0073 - Diefenbach et al (2021), “Wikibase as an Infrastructure for Knowledge Graphs: the EU Knowledge Graph” - https://hal.science/hal-03353225/document - Bergamin, G. (2022). Wikibase, or The search for the unicorn. JLIS.It, 13(3), 49–62. https://doi.org/10.36253/jlis.it-484
+* Solution by National library of Greece - http://www.rda-rsc.org/sites/all/files/NLG_Wikibase.pdf - https://www.youtube.com/watch?v=TPIS11QK8jI - Samenvatting door Marieke Moolenaar (KB), interne email, 21-8-2023
+
+De Griekse Wikibase wordt gebruikt als een grafische interface (front-end) voor het invoeren van thesaurusdata door bibliotheekmedewerkers.
+Ze gebruiken hun Wikibase niet voor het publiceren van linked data. 
+De reden dat ze Wikibase niet gebruiken voor publicatie van linked data is dat je in Wikibase alleen gebruik kan maken van het Wikibase-metadatamodel en dat bestaande vocabularies (zoals RDA/RDF) niet gebruikt kunnen worden in Wikibase.
+Ze  hebben voor hun doel wel een vertaling/mapping gemaakt van RDA/RDF naar Wikibase-entities, maar dat is gedaan om nieuwe thesaurustriples via Wikibase-schermen in te kunnen voeren. 
+ 
+Periodiek kopiëren ze alle aangemaakte thesaurus-triples uit de Wikibase-graaf naar een andere triple store (Triply). 
+Daarvoor vertalen ze hun Wikibase-triples terug naar RDA/RDF-triples.
+In Triply slaan ze dan dus de echte RDA/RDF-vocabulary-triples op, die er in Wikibase niet (kunnen) zijn. 
+ 
+https://data.nlg.gr/query (sparql-endpoint)
+voorbeeldje om wat RDA te bevragen
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX grieksauthority: <http://data.nlg.gr/resource/authority/>
+PREFIX rdaw: <http://rdaregistry.info/Elements/w/datatype/>
+SELECT * WHERE {  grieksauthority:A2329 rdaw:P10002 ?obj. } 
+ 
+
+
+
+
+
+
+
+
+
+
+
+* Analyse door Marieke Moolenaar: https://plein.kb.nl/thoughts/25980 + https://github.com/schemaorg/schemaorg/wiki/BlazeGraphSPARQLHowto  
 
 <hr>
 
