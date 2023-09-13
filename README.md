@@ -10,7 +10,7 @@ This page was originally extracted from the slides of the lecture *Introduction 
 
 This overview is heavily inspired by the *[Wikibase knowledge graphs, A collection of open source tools and resources related to Wikibase knowledge graphs](https://github.com/shigapov/wikibase-knowledge-graphs)* by Renat Shigapov. I've used his centralized overview many times to improve my understanding of the Wikibase universe, and hope to extend it via the overview below, and help others in a similar way.
 
-From my own experience, especially when you are new to Wikibase, it can be very time consuming to discover and understand all the various corners of the Wikibase world, and find your way around this rather confusing forrest/jungle. I hope the centralized "knowledge hub" below will help to make that yourney somewhat easier.  
+From my own experience, especially when you are new to Wikibase, it can be very time consuming to discover and understand all the various corners of the Wikibase world, and find your way around this rather confusing forrest/jungle. I hope the centralized "knowledge hub" below will help to make that journey somewhat easier.  
 
 <hr/>
 
