@@ -20,7 +20,7 @@ Latest update: 13 September 2023
   * [Institutional requirements](#institutional-requirements)
 - [What is Wikibase?](#what-is-wikibase-)
 - [Examples of institutions/projects using Wikibase](#examples-of-institutions-projects-using-wikibase)
-- [Wikibase projects in libraries](#wikibase-projects-in-libraries)
+  * [Wikibase projects in libraries](#wikibase-projects-in-libraries)
 - [Wikibase components & architecture](#wikibase-components---architecture)
 - [Wikibase data model](#wikibase-data-model)
   * [Using alternative vocabularies in Wikibase](#using-alternative-vocabularies-in-wikibase)
@@ -33,10 +33,6 @@ Latest update: 13 September 2023
 - [Finding help](#finding-help)
 
 <small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
-
-<hr>
-
-[History of Wikibase](https://addshore.com/2022/02/wikibase-a-history/) (until Febr 2022) ([archived version](https://web.archive.org/web/20230714110136/https://addshore.com/2022/02/wikibase-a-history/))
 
 <hr>
 
@@ -115,6 +111,7 @@ This section ia a summary of the lecture *[Introduction to Wikidata](https://com
 
 * Wikibase website: https://wikiba.se/
 * The bigger picture, according to the Wikimedia Foundation: [Wikidata-Wikibase joint vision](https://meta.wikimedia.org/wiki/LinkedOpenData/Strategy2021/Joint_Vision) and the [Wikibase ecosystem](https://meta.wikimedia.org/wiki/LinkedOpenData/Strategy2021/Wikibase) 
+* [History of Wikibase](https://addshore.com/2022/02/wikibase-a-history/) (until Febr 2022) ([archived version](https://web.archive.org/web/20230714110136/https://addshore.com/2022/02/wikibase-a-history/))
 
 <hr>
 
