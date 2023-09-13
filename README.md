@@ -6,11 +6,31 @@
 # Wikibase resources
 *A collection of resources, overviews, links and knowlegde related to Wikibase, collected and curated by KB, national library of the Netherlands.*
 
-This overview was originally extracted from the slides of the lecture *Introduction Wikibase, the basics*, for employeees of [KB, national library of the Netherlands](https://www.kb.nl) on 7 September 2023. This slidedeck is available on [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Introductiecursus_Wikibase_-_Koninklijke_Bibliotheek,_7_september_2023.pdf) and [Zenodo](https://doi.org/10.5281/zenodo.8338811).
+This page was originally extracted from the slides of the lecture *Introduction Wikibase, the basics*, for employeees of [KB, national library of the Netherlands](https://www.kb.nl) on 7 September 2023. This (rather long) slidedeck is available on [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Introductiecursus_Wikibase_-_Koninklijke_Bibliotheek,_7_september_2023.pdf) and [Zenodo](https://doi.org/10.5281/zenodo.8338811).
 
-This overview is heavily inspired by the *[Wikibase knowledge graphs, A collection of open source tools and resources related to Wikibase knowledge graphs](https://github.com/shigapov/wikibase-knowledge-graphs)* by Renat Shigapov. I've used this overview many times to improve my understanding of the Wikibase universe, and hope to extend it via the overview below, and help others in a similar way.
+This overview is heavily inspired by the *[Wikibase knowledge graphs, A collection of open source tools and resources related to Wikibase knowledge graphs](https://github.com/shigapov/wikibase-knowledge-graphs)* by Renat Shigapov. I've used his centralized overview many times to improve my understanding of the Wikibase universe, and hope to extend it via the overview below, and help others in a similar way.
+
+From my own experience, especially when you are new to Wikibase, it can be very time consuming to discover and understand all the various corners of the Wikibase world, and find your way around this rather confusing forrest/jungle. I hope the centralized "knowledge hub" below will help to make that yourney somewhat easier.  
+
+<hr/>
+
+**Contributing to this page**
 
 This page is maintained by Olaf Janssen, Wikimedia coordinator of KB. See his [Wikidata user page](https://www.wikidata.org/wiki/User:OlafJanssen) and [expert page on kb.nl](https://www.kb.nl/over-ons/experts/olaf-janssen) for contact details.
+
+I plan to improve & expand the overview in the future, also acting as my “personal memory of interesting Wikibase stuff”.
+
+If you would like to contribute to this overview, please let me know.   
+
+**Reuse and licensing**
+
+This overview can be reused freely and openly, it is available under the [CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/) license, so attribution is required. Use something like 
+
+*Wikibase resources, Olaf Janssen & KB national library of the Netherlands, https://github.com/KBNLwikimedia/Wikibase-resources* 
+
+<kbd><img src="cc-by.png" width="100"/></kbd>
+
+**Latest updates**
 
 Latest update: 13 September 2023
 <hr>
@@ -341,7 +361,4 @@ Using [KB's sandbox WB](https://kbtestwikibase.wikibase.cloud/wiki/Main_Page) (l
 * [Learning Wikibase](https://learningwikibase.com), a place to learn and share online resources (e.g. articles, videos, workflows, FAQ’s) that make it easier to install, maintain or customize your Wikibase instance. 
 * Tip!! [Wikibase resources overview](https://github.com/shigapov/wikibase-knowledge-graphs) by Renat Shigapov 
 * [UCLA Library Research Guide on Wikibase and Wikidata](https://guides.library.ucla.edu/semantic-web/wikidata#s-lg-page-section-6895500)  
-* [Awesome Wikibase tutorials](https://github.com/shigapov/wikibase-knowledge-graphs#awesome-wikibase-tutorials) collected by Renat Shigapov. 
- 
-
-
+* [Awesome Wikibase tutorials](https://github.com/shigapov/wikibase-knowledge-graphs#awesome-wikibase-tutorials) collected by Renat Shigapov.
