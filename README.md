@@ -122,15 +122,14 @@ This section ia a summary of the lecture *[Introduction to Wikidata](https://com
   - [Artworks in the ArtBase with more than one artist](https://artbase.rhizome.org/wiki/Query/example1), visualized as a graph with images. 
 * [Enslaved.org](https://enslaved.org)
   - LOD platform containing ±1M records (people, events, places, and sources) related to the transatlantic slave trade
-  - [Data dumps from the Wikibase](https://lod.enslaved.org/wiki/Meta:Main_Page) 
   - *[Stories of the Enslaved told using Wikibase](https://tech-news.wikimedia.de/en/2021/02/18/stories-of-the-enslaved-told-using-wikibase/)*, article by Elisabeth Giesemann, 18 February 2021 
+  - [Data dumps from the Wikibase](https://lod.enslaved.org/wiki/Meta:Main_Page) 
 * [FactGrid](https://database.factgrid.de/wiki/Main_Page) 
   - Open collaborative international Wikibase knowledge graph for historical research, [312 participants](https://tinyurl.com/2kl7a7gt)
   - [FactGrid projects, by era](https://database.factgrid.de/wiki/FactGrid:Projects), for example [Paris to download](https://database.factgrid.de/wiki/FactGrid:Nineteenth_Century#Paris_to_download), a freely downloadable dataset with geographic coordinates and administrative information from all the houses and streets of Paris in c. 1820. SPARQL: [All the houses and streets of Paris c. 1820](https://tinyurl.com/yf4fvrf7) ([source article](https://blog.factgrid.de/archives/2333) by Bruno Belhoste, 14-11-2021) 
 * [The Aviation Safety Network Wikibase](https://aviation-safety.net/wikibase)
   - The [ASN](https://aviation-safety.net/about/) provides up-to-date, complete and reliable authoritative information on airliner accidents and safety issues. 
   - This Wikibase is updated regularly by a large user community and contains descriptions of more than 258,000 accidents involving light aircraft, military aircraft, helicopters, gyroplanes, gliders, hot air balloons and UAVs since 1905.
-
 * [EU Knowlegde Graph](https://linkedopendata.eu/wiki/The_EU_Knowledge_Graph)
   - Contains information about 1.9M projects financed by the EU and 700K beneficiaries of European projects
   - *[Wikibase as an Infrastructure for Knowledge Graphs: the EU Knowledge Graph](https://hal.archives-ouvertes.fr/hal-03353225/document)*, D. Diefenbach, M. De Wilde and S.Alipio, 30 September 2021 -  [WikidataCon 2021 video recording.](https://www.youtube.com/watch?v=PyBWo-ka9JU)
@@ -144,6 +143,7 @@ This section ia a summary of the lecture *[Introduction to Wikidata](https://com
   - GND = [Gemeinsame Normdatei](https://www.dnb.de/EN/Professionell/Standardisierung/GND/gnd_node.html), Integrated authority file for German speaking countries, 8 M authority records on persons, corporate bodies, subject headings, geographical names, works etc.
   - [Wikibase as a second home for the GND](https://drive.google.com/file/d/1PyUGNeZUx5kmyGJF_cwMPFY4HmT5Kj8_/view) (p. 165) - A Wikibase to collaboratively edit and maintain authority records for the entire GLAM field and digital humanities.
   - *[Could you wikify an authority file? Wikibase has been evaluated for the Integrated Authority File (GND)](https://tech-news.wikimedia.de/en/2020/03/04/wikibase-and-gnd/)* by Barbara Fischer and Jens Ohlig, 4 March 2020
+  - See also below, [Wikibase projects in libraries](#wikibase-projects-in-libraries)
 * More Wikibase instances
   - [Wikibase World](https://wikibase.world/wiki/Project:Home) - [List of WB instances](https://tinyurl.com/2jkres9t)
   - [Awesome Wikibase instances](https://github.com/shigapov/wikibase-knowledge-graphs#awesome-wikibase-instances) by Renat Shigapov
@@ -152,22 +152,21 @@ This section ia a summary of the lecture *[Introduction to Wikidata](https://com
 
 ### Wikibase projects in libraries
 Wikibase is being evaluated by libraries as a tool to help them store and manage their structured data, as well as connect to the world of linked open data. 
-* German National Library (DNB) 
-* KB, national library of the Netherlands 
-* National Library of France (more info) 
-* National Library of the Czech Republic (more info) 
-* National Library of Luxembourg (more info) 
-* National library of Greece (more info) 
-* The Smithsonian Libraries (more info) 
+* National Library of Germany (DNB), see above, and below 
+* National Library of France (BnF) ([more info](https://commons.wikimedia.org/w/index.php?title=File:Wikibase_for_FNE.pdf)). See also below 
+* National Library of the Czech Republic ([more info](https://blog.wikimedia.cz/2021/09/13/bringing-czech-authority-files-into-21st-century-integration-with-wikidata/)) 
+* National Library of Luxembourg ([more info](https://swib.org/swib21/slides/05-03-gayo.pdf)) 
+* National library of Greece ([more info](https://www.youtube.com/watch?v=TPIS11QK8jI)) 
+* National library of the Netherlands (KB)
+* The Smithsonian Libraries ([more info](https://blog.library.si.edu/blog/2022/02/17/wikidata-projects/))
 
-Meerdere bibliotheken hebben pilots, experimenten en evaluaties met Wikibase gedaan. Wat zijn hun bevindingen?
-* OCLC, Project Passage: https://www.oclc.org/content/dam/research/publications/2019/oclcresearch-creating-library-linked-data-with-wikibase-project-passage-a4.pdf
-* Bibliotheken VS, Use cases for institutional Wikibase instances: https://github.com/timothy-mendenhall/wikibase-use-cases/blob/master/UseCases-2020.md 
-* DNB, GND meets Wikibase: https://wiki.dnb.de/pages/viewpage.action?pageId=147754828 + https://wiki.dnb.de/pages/viewpage.action?pageId=167019461
-[La Bibliotheca piattaforma della conoscenza - Collaborativa, inclusiva, reticolare](https://drive.google.com/file/d/1PyUGNeZUx5kmyGJF_cwMPFY4HmT5Kj8_/view) (2021, p. 145)
-* DBN/BnF: Wikibase for Cultural Heritage and Academia, Perceived pros and cons of Wikibase as a solution - https://joinup.ec.europa.eu/sites/default/files/custom-page/attachment/2020-11/Parallel-track-4_B-Fischer_J-Thill_A-Angjeli%20final%20ppt.pdf
-* TIB/NFDI (Duitsland): Examining Wikidata and Wikibase in the context of research data management applications: https://blogs.tib.eu/wp/tib/2022/03/16/examining-wikidata-and-wikibase-in-the-context-of-research-data-management-applications https://www.youtube.com/watch?v=RPMkuDxHJtI Wikidata and Wikibase as complementary research services for cultural heritage data: https://blogs.tib.eu/wp/tib/2022/03/17/wikidata-and-wikibase-as-complementary-research-services-for-cultural-heritage-data/
-* TIB/NFDI (Duitsland): https://zenodo.org/record/7738424 + http://docs.google.com/spreadsheets/d/1FNU8857JwUNFXmXAW16lgpjLq5TkgBUuafqZF-yo8_I/edit?usp=share_link  
+Several libraries have done pilots, experiments and evaluations with Wikibase. What are their findings?
+* OCLC, Wikibase pilot, a.k.a. [Project Passage](https://www.oclc.org/content/dam/research/publications/2019/oclcresearch-creating-library-linked-data-with-wikibase-project-passage-a4.pdf) 
+* Academic libraries USA, [Use cases for institutional Wikibase instances](https://github.com/timothy-mendenhall/wikibase-use-cases/blob/master/UseCases-2020.md) 
+* DNB, "GND meets Wikibase", a cooperation: [Part 1](https://wiki.dnb.de/pages/viewpage.action?pageId=147754828) and [part 2](https://wiki.dnb.de/pages/viewpage.action?pageId=167019461). See also *[A Voice in the Orchestra of Opening the GND](https://drive.google.com/file/d/1PyUGNeZUx5kmyGJF_cwMPFY4HmT5Kj8_/view)* by Barbara Fischer, DNB (p. 145 onwards)
+* DBN & BnF: [Wikibase for Cultural Heritage and Academia, Perceived pros and cons of Wikibase as a solution](https://joinup.ec.europa.eu/sites/default/files/custom-page/attachment/2020-11/Parallel-track-4_B-Fischer_J-Thill_A-Angjeli%20final%20ppt.pdf) (slide 7)
+* German National Library of Science and Technology (TIB): *[Examining Wikidata and Wikibase in the context of research data management applications](https://blogs.tib.eu/wp/tib/2022/03/16/examining-wikidata-and-wikibase-in-the-context-of-research-data-management-applications)* ([video](https://www.youtube.com/watch?v=RPMkuDxHJtI)) and *[Wikidata and Wikibase as complementary research services for cultural heritage data](https://blogs.tib.eu/wp/tib/2022/03/17/wikidata-and-wikibase-as-complementary-research-services-for-cultural-heritage-data/)* (March 2022)
+* TIB/NFDI (Germany): [Linked Open Data Management Services: A Comparison](https://zenodo.org/record/7738424) (15 March 2023)
 
 <hr>
 
