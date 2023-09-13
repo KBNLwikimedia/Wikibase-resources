@@ -74,6 +74,7 @@ This section ia a summary of the lecture *[Introduction to Wikidata](https://com
     - Without copyright issues
     - Without privacy issues ([more info](https://www.wikidata.org/wiki/Wikidata:Living_people))
 
+#### Institutional requirements
 * Institutional use cases for which Wikidata is *not* suitable
   - Publish domain-specific / specialist / 'esoteric' LOD
   - Publish very large LOD sets (e.g. catalogues, thesauri)
@@ -99,17 +100,16 @@ This section ia a summary of the lecture *[Introduction to Wikidata](https://com
    - Native multilingualism support
    - Version history and control, rollbacks
    - Clear ontology: Items, Properties, Statements etc.
-   - Output in various data formats (including JSON, RDF/XML, N3)
-   - Search via SPARQL
-   - Well suported and documented MediaWiki API
-   - Support for tools (including OpenRefine)
-   - Documentation for Wikidata is in general applicable to Wikibase as well
+   - Output in [various data formats](https://www.wikidata.org/wiki/Wikidata:Data_access#Details_2) (including JSON, RDF/XML, N3)
+   - Search via [SPARQL](https://www.wikidata.org/wiki/Wikidata:SPARQL_query_service/A_gentle_introduction_to_the_Wikidata_Query_Service)
+   - Well suported and documented [MediaWiki API](https://www.mediawiki.org/wiki/API:Main_page)
+   - Support for tools (including [OpenRefine](https://www.openrefine.org))
+   - [Documentation for Wikidata](https://www.wikidata.org/wiki/Help:Contents) is in general applicable to Wikibase as well
 
-*[Wikibase: the advantages of Wikidata, without the disadvantages](https://commons.wikimedia.org/wiki/File:Wikibase,_de_voordelen_van_Wikidata,_zonder_de_nadelen_-_Artikel_van_Olaf_Janssen_in_InformatieProfessional_nr.08,_2019,_pagina_37.jpg)* (article in Dutch by Olaf Janssen) 
+* *[Wikibase: the advantages of Wikidata, without the disadvantages](https://commons.wikimedia.org/wiki/File:Wikibase,_de_voordelen_van_Wikidata,_zonder_de_nadelen_-_Artikel_van_Olaf_Janssen_in_InformatieProfessional_nr.08,_2019,_pagina_37.jpg)* (article in Dutch by Olaf Janssen) 
 
-<hr>
-Wikibase website: https://wikiba.se/
-Het grotere plaatje, Wikidata-Wikibase strategie: https://meta.wikimedia.org/wiki/LinkedOpenData/Strategy2021/Joint_Vision + https://meta.wikimedia.org/wiki/LinkedOpenData/Strategy2021/Wikibase 
+* Wikibase website: https://wikiba.se/
+* The bigger picture, according to the Wikimedia Foundation: [Wikidata-Wikibase joint vision](https://meta.wikimedia.org/wiki/LinkedOpenData/Strategy2021/Joint_Vision) and the [Wikibase ecosystem](https://meta.wikimedia.org/wiki/LinkedOpenData/Strategy2021/Wikibase) 
 
 <hr>
 
