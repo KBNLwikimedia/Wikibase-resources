@@ -160,7 +160,7 @@ Wikibase is being evaluated by libraries as a tool to help them store and manage
   - DBN & BnF: [Wikibase for Cultural Heritage and Academia, Perceived pros and cons of Wikibase as a solution](https://joinup.ec.europa.eu/sites/default/files/custom-page/attachment/2020-11/Parallel-track-4_B-Fischer_J-Thill_A-Angjeli%20final%20ppt.pdf) (slide 7) 
   - National Library of the Czech Republic ([more info](https://blog.wikimedia.cz/2021/09/13/bringing-czech-authority-files-into-21st-century-integration-with-wikidata/)) 
   - National Library of Luxembourg ([more info](https://swib.org/swib21/slides/05-03-gayo.pdf)) 
-  - National library of Greece ([more info](https://www.youtube.com/watch?v=TPIS11QK8jI)) 
+  - National library of Greece ([more info](https://www.youtube.com/watch?v=TPIS11QK8jI)). See also [Using alternative vocabularies in Wikibase](#using-alternative-vocabularies-in-Wikibase) 
   - National library of the Netherlands (KB)
 * USA
   - The Smithsonian Libraries ([more info](https://blog.library.si.edu/blog/2022/02/17/wikidata-projects/))
@@ -184,40 +184,16 @@ Wikibase is being evaluated by libraries as a tool to help them store and manage
 * [Wikibase conceptual data model](https://www.mediawiki.org/wiki/Wikibase/DataModel) 
 
 #### Using alternative vocabularies in Wikibase 
-* As explained [above](#wikibase-data-model) Wikibase has its own unique data model, which has its limitations. To what extent can you include other vocabularies (such as [RDA](https://en.wikipedia.org/wiki/Resource_Description_and_Access) and [Schema.org](https://en.wikipedia.org/wiki/Schema.org)) into a Wikibase?
-
-* Literature about the limitations of the Wikibase model: - https://wikidataworkshop.github.io/2022/papers/Wikidata_Workshop_2022_paper_9774.pdf - Wikidata’22: Wikidata workshop at ISWC 2022 - daniil.dobriy@wu.ac.at (D.Dobriy); axel.polleres@wu.ac.at (A. Polleres) - CC BY 4.0 – CEUR Workshop Proceedings, http://ceur-ws.org, ISSN 1613-0073 - Diefenbach et al (2021), “Wikibase as an Infrastructure for Knowledge Graphs: the EU Knowledge Graph” - https://hal.science/hal-03353225/document - Bergamin, G. (2022). Wikibase, or The search for the unicorn. JLIS.It, 13(3), 49–62. https://doi.org/10.36253/jlis.it-484
-* Solution by National library of Greece - http://www.rda-rsc.org/sites/all/files/NLG_Wikibase.pdf - https://www.youtube.com/watch?v=TPIS11QK8jI - Samenvatting door Marieke Moolenaar (KB), interne email, 21-8-2023
-
-De Griekse Wikibase wordt gebruikt als een grafische interface (front-end) voor het invoeren van thesaurusdata door bibliotheekmedewerkers.
-Ze gebruiken hun Wikibase niet voor het publiceren van linked data. 
-De reden dat ze Wikibase niet gebruiken voor publicatie van linked data is dat je in Wikibase alleen gebruik kan maken van het Wikibase-metadatamodel en dat bestaande vocabularies (zoals RDA/RDF) niet gebruikt kunnen worden in Wikibase.
-Ze  hebben voor hun doel wel een vertaling/mapping gemaakt van RDA/RDF naar Wikibase-entities, maar dat is gedaan om nieuwe thesaurustriples via Wikibase-schermen in te kunnen voeren. 
- 
-Periodiek kopiëren ze alle aangemaakte thesaurus-triples uit de Wikibase-graaf naar een andere triple store (Triply). 
-Daarvoor vertalen ze hun Wikibase-triples terug naar RDA/RDF-triples.
-In Triply slaan ze dan dus de echte RDA/RDF-vocabulary-triples op, die er in Wikibase niet (kunnen) zijn. 
- 
-https://data.nlg.gr/query (sparql-endpoint)
-voorbeeldje om wat RDA te bevragen
-PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
-PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
-PREFIX grieksauthority: <http://data.nlg.gr/resource/authority/>
-PREFIX rdaw: <http://rdaregistry.info/Elements/w/datatype/>
-SELECT * WHERE {  grieksauthority:A2329 rdaw:P10002 ?obj. } 
- 
-
-
-
-
-
-
-
-
-
-
-
-* Analyse door Marieke Moolenaar: https://plein.kb.nl/thoughts/25980 + https://github.com/schemaorg/schemaorg/wiki/BlazeGraphSPARQLHowto  
+* As explained [above](#wikibase-data-model) Wikibase has its own unique data model, which has its limitations. To what extent can other vocabularies (such as [RDA](https://en.wikipedia.org/wiki/Resource_Description_and_Access) and [Schema.org](https://en.wikipedia.org/wiki/Schema.org)) be included into a Wikibase?
+* Literature explaining the limitations of the Wikibase model:
+  - *[Analysing and promoting ontology interoperability in Wikibase](https://wikidataworkshop.github.io/2022/papers/Wikidata_Workshop_2022_paper_9774.pdf)*, D.Dobriy and A. Polleres (2022)
+  - *[Wikibase as an Infrastructure for Knowledge Graphs: the EU Knowledge Graph](https://hal.science/hal-03353225/document)*, Diefenbach et al. (2021), see "5. Comparing classical approach vs Wikibase"  
+  - *[Wikibase, or The search for the unicorn](https://doi.org/10.36253/jlis.it-484)*, Bergamin, G. (2022), JLIS.It, 13(3), 49–62. 
+* Solution by National library of Greece (NLG) - [Implementing RDA in Wikibas](http://www.rda-rsc.org/sites/all/files/NLG_Wikibase.pdf), C. Bratsas and L. Ioannidis of Open Knowledge Greece
+* Summary of the NLG approach written by Marieke Moolenaar (KB, internal email, 21-8-2023):<br/>
+<sub>*The Greek Wikibase is only used as a graphical interface (front-end) for entering thesaurus data by library staff.
+They do *not* use their Wikibase to publish linked data, but only for data entry purposes. The reason they do not use Wikibase for publishing linked data is that in Wikibase you can only use the proprietary Wikibase metadata model, thus external vocabularies (such as RDA/RDF) cannot be used in Wikibase. To be able to enter new thesaurus triples via Wikibase screens/GUI, the NLG has made a translation/mapping from RDA/RDF to Wikibase entities (Ps and Qs). They periodically copy all created thesaurus triples from the Wikibase graph to another triple store ([Triply](https://triply.cc/)). To do this, they translate their Wikibase triples back to RDA/RDF triples. In Triply they store and publish the real RDA/RDF vocabulary triples, which are not (or cannot be) present in Wikibase.*</sub>
+* [How to load up schema.org data dumps into Blazegraph](https://github.com/schemaorg/schemaorg/wiki/BlazeGraphSPARQLHowto) by Dan Brickley, August 2016  
 
 <hr>
 
