@@ -10,17 +10,22 @@ This page was originally extracted from the slides of the lecture *Introduction 
 
 This overview is heavily inspired by the *[Wikibase knowledge graphs, A collection of open source tools and resources related to Wikibase knowledge graphs](https://github.com/shigapov/wikibase-knowledge-graphs)* by Renat Shigapov. I've used his centralized overview many times to improve my understanding of the Wikibase universe, and hope to extend it via the overview below, and help others in a similar way.
 
-From my own experience, especially when you are new to Wikibase, it can be very time consuming to discover and understand all the various corners of the Wikibase world, and find your way around this rather confusing forrest/jungle. I hope the centralized "knowledge hub" below will help to make that journey somewhat easier.  
-
 <hr/>
+
+**Motivation**
+
+I created this page for several reasons:
+
+* As a *textual summary* of my (rather exuberant, visual) [presentation](https://doi.org/10.5281/zenodo.8338811) of September 7th.
+* From my own experience (especially if you are new to Wikibase) I know that it can be very time-consuming to discover and understand the different corners of the Wikibase world, and to find your way in this rather confusing forrest/jungle. I hope this *centralized knowledge hub* can help others make that journey a little easier/faster.
+* I have only been able to acquire most of my Wikibase knowledge thanks to the openness and generosity of the international Wikibase community and their willingness to make knowledge findable, visible and reusable for free. So I think it is no more than 'good reciprocal decency' to *contribute to the community* this overview of centralized and summarized knowledge.
+* As a place to record my *"public personal memory of interesting Wikibase stuff"*.
 
 **Contributing to this page**
 
 This page is maintained by Olaf Janssen, Wikimedia coordinator of KB. See his [Wikidata user page](https://www.wikidata.org/wiki/User:OlafJanssen) and [expert page on kb.nl](https://www.kb.nl/over-ons/experts/olaf-janssen) for contact details.
 
-I plan to improve & expand the overview in the future, also acting as my “personal memory of interesting Wikibase stuff”.
-
-If you would like to contribute to this overview, please let me know.   
+I plan to improve & expand the overview in the future. If you would like to contribute, please let me know.   
 
 **Reuse and licensing**
 
@@ -32,7 +37,7 @@ This overview can be reused freely and openly, it is available under the [CC-BY 
 
 **Latest updates**
 
-Latest update: 13 September 2023
+Latest update: 15 September 2023
 <hr>
 
 ### Contents
