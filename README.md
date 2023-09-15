@@ -37,7 +37,7 @@ This overview can be reused freely and openly, it is available under the [CC-BY 
 
 **Latest updates**
 
-Latest update: 15 September 2023
+Latest update: Version 0.1, 15 September 2023
 <hr>
 
 ### Contents
