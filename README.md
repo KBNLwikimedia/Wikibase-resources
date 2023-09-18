@@ -44,6 +44,7 @@ Latest update: Version 0.1, 15 September 2023
 - [Recap Wikidata](#recap-wikidata)
   * [Institutional use cases incompatible with Wikidata](#institutional-use-cases-incompatible-with-Wikidata)
 - [What is Wikibase?](#what-is-wikibase-)
+- [Wikibase courses and tutorials](#wikibase-courses-and-tutorials)
 - [Examples of institutions/projects using Wikibase](#examples-of-institutions-projects-using-wikibase)
   * [Wikibase projects in libraries](#wikibase-projects-in-libraries)
 - [Wikibase components & architecture](#wikibase-components---architecture)
@@ -135,8 +136,17 @@ This section ia a summary of the lecture *[Introduction to Wikidata](https://com
 * *[Wikibase: the advantages of Wikidata, without the disadvantages](https://commons.wikimedia.org/wiki/File:Wikibase,_de_voordelen_van_Wikidata,_zonder_de_nadelen_-_Artikel_van_Olaf_Janssen_in_InformatieProfessional_nr.08,_2019,_pagina_37.jpg)* (article in Dutch by Olaf Janssen) 
 
 * Wikibase website: https://wikiba.se/
-* The bigger picture, according to the Wikimedia Foundation: [Wikidata-Wikibase joint vision](https://meta.wikimedia.org/wiki/LinkedOpenData/Strategy2021/Joint_Vision) and the [Wikibase ecosystem](https://meta.wikimedia.org/wiki/LinkedOpenData/Strategy2021/Wikibase) 
+* The bigger picture, according to the Wikimedia Foundation: [Wikidata-Wikibase joint vision](https://meta.wikimedia.org/wiki/LinkedOpenData/Strategy2021/Joint_Vision) and the [Wikibase ecosystem](https://meta.wikimedia.org/wiki/LinkedOpenData/Strategy2021/Wikibase)
+* [Introduction to Wikibase and Wikibase Cloud](https://www.youtube.com/watch?v=z1Swo5xYKQE) by Georgina Burnett (WMDE), [2022 LD4 conference](https://sites.google.com/berkeley.edu/2022-ld4-conference/home), 12th July 2022 
 * [History of Wikibase](https://addshore.com/2022/02/wikibase-a-history/) (until Febr 2022) ([archived version](https://web.archive.org/web/20230714110136/https://addshore.com/2022/02/wikibase-a-history/))
+
+<hr>
+
+### Wikibase courses and tutorials
+See also [Awesome Wikibase tutorials](https://github.com/shigapov/wikibase-knowledge-graphs#awesome-wikibase-tutorials) collected by Renat Shigapov.
+* [Wikibase and Semantic MediaWiki for data-driven semantics](https://academy.europa.eu/courses/wikibase-and-semantic-mediawiki-for-data-driven-semantics), EU Academy, online <br/>
+<sub>In this course, you will learn how community-led tools and platforms like Wikibase, Semantic MediaWiki, and Wikidata can be used to create a data-driven semantic layer in a bottom-up way.</sub>
+* [Introduction Wikibase, the basics](https://doi.org/10.5281/zenodo.8338811) by KB, national library of the Netherlands. Also available on [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Introductiecursus_Wikibase_-_Koninklijke_Bibliotheek,_7_september_2023.pdf).
 
 <hr>
 
@@ -316,14 +326,14 @@ Using [KB's sandbox WB](https://kbtestwikibase.wikibase.cloud/wiki/Main_Page) (l
 #### 2) Wikibase Stakeholder Group (WBSG)
 *Commissions production and maintenance of open source extensions to Wikibase, and documentation for institutions that want to operate and maintain a fully-fledged instance of Wikibase. The group will focus on extensions to Wikibase instead of contributing to Wikibase core.*
 
-[About the WBSG](https://wbstakeholder.group/about) - [WBSG members](https://wbstakeholder.group/members) - [WBSG monthly online meeting minutes](https://notepad.rhizome.org/wikibase-stakeholder-meetings#) - [WBSG Loomio](https://loomio.rhizome.org/wbsg/) - [WBSG Mastodon](https://mastodon.social/web/@wbstakeholders) - [WBSG Twitter](https://twitter.com/wbstakeholders)
+[About the WBSG](https://wbstakeholder.group/about) - [WBSG members](https://wbstakeholder.group/members) - [WBSG meeting calender](https://notepad.rhizome.org/wbsg-services) - [WBSG monthly online meeting minutes](https://notepad.rhizome.org/wikibase-stakeholder-meetings#)  - [WBSG Loomio](https://loomio.rhizome.org/wbsg/) - [WBSG Mastodon](https://mastodon.social/web/@wbstakeholders) - [WBSG Twitter](https://twitter.com/wbstakeholders)
 
 #### 3) Wikibase Knowlegde Group Netherlands (WBGNL)
 *The aim of this group is to bundle and exchange knowledge & experiences about the use of Wikibase, to learn from each other, and to keep each other informed about the (international) developments and opportunities surrounding Wikibase. Membership is open to everyone in the Netherlands who already works with Wikibase, wants to work with, or is otherwise interested in this software. Mainly for - but certainly not limited to - professionals from Dutch heritage and knowledge institutions, and related organizations and companies.*  
 
 [About the WBGNL](https://www.wikidata.org/wiki/Wikidata:GLAM/Koninklijke_Bibliotheek_Nederland/WikibaseActivities#Dutch_Wikibase_knowledge_group) - [WBGNL meetings](https://wbstakeholder.group/events/presentations#netherlands-wikibase-knowledge-group) (also available [here](https://www.wikidata.org/wiki/Wikidata:GLAM/Koninklijke_Bibliotheek_Nederland/WikibaseActivities#Meetings)) - [WBGNL mailing list](https://lists.wmnederland.nl/mailman/listinfo/wikibase-nl) - [WBGNL Loomio](https://loomio.rhizome.org/wbgn/)
 
-#### 4) Wikibase community workshops, trainings, meetups etc.
+#### 4) Wikibase community workshops, trainings, meetups etc. (archive)
 * [The first Federated-Wikibase-Workshop: Antwerp](https://www.wikidata.org/wiki/Wikidata:WikiProject_Wikidata_for_research/Meetups/2018-04-23-25-Antwerpen), April 2018 ([blog](https://blog.factgrid.de/archives/835))
 * [Wikibase Workshop in Berlin](https://www.wikidata.org/wiki/Wikidata:WikiProject_Wikidata_for_research/Meetups/2018-06-17-19-Berlin), June 2018 ([blog](https://blog.wikimedia.de/2018/07/13/wikibase-workshop-in-berlin/))
 * [The Wikibase Summit: New York](https://www.wikidata.org/wiki/Wikidata:WikiProject_Wikidata_for_research/Meetups/2018-09-19-21-New-York), September 2018
@@ -336,9 +346,8 @@ Using [KB's sandbox WB](https://kbtestwikibase.wikibase.cloud/wiki/Main_Page) (l
 * [Second SEMIC workshop on Wikidata and Wikibase](https://joinup.ec.europa.eu/collection/semic-support-centre/event/second-workshop-wikidata-and-wikibase), Brussel, 23 February 2023 
 * [Third SEMIC workshop on Wikidata and Wikibase](https://joinup.ec.europa.eu/collection/semic-support-centre/event/third-workshop-wikidata-and-wikibase), online, 28 March 2023
 * [First Wikibase lexical data workshop](https://wikibase-lex.sciencesconf.org/), Wenen, Septemer 2023
-* [Wikibase and Semantic MediaWiki for data-driven semantics](https://academy.europa.eu/courses/wikibase-and-semantic-mediawiki-for-data-driven-semantics), EU Academy, online <br/>
-<sub>In this course, you will learn how community-led tools and platforms like Wikibase, Semantic MediaWiki, and Wikidata can be used to create a data-driven semantic layer in a bottom-up way.</sub> 
-<hr>
+
+<hr/>
 
 ### Staying updated
 * Via the meetings, minutes, presentations, mailing lists, socials etc. of the WBCUG, WBSG and WBGNL. See above.
@@ -368,4 +377,4 @@ Using [KB's sandbox WB](https://kbtestwikibase.wikibase.cloud/wiki/Main_Page) (l
 * [Learning Wikibase](https://learningwikibase.com), a place to learn and share online resources (e.g. articles, videos, workflows, FAQ’s) that make it easier to install, maintain or customize your Wikibase instance. 
 * Tip!! [Wikibase resources overview](https://github.com/shigapov/wikibase-knowledge-graphs) by Renat Shigapov 
 * [UCLA Library Research Guide on Wikibase and Wikidata](https://guides.library.ucla.edu/semantic-web/wikidata#s-lg-page-section-6895500)  
-* [Awesome Wikibase tutorials](https://github.com/shigapov/wikibase-knowledge-graphs#awesome-wikibase-tutorials) collected by Renat Shigapov.
+
