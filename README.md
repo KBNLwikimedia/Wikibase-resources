@@ -335,7 +335,9 @@ Using [KB's sandbox WB](https://kbtestwikibase.wikibase.cloud/wiki/Main_Page) (l
 * [First SEMIC workshop on Wikidata and Wikibase](https://joinup.ec.europa.eu/collection/semic-support-centre/event/first-workshop-wikidata-and-wikibase), online, 24 January 2023
 * [Second SEMIC workshop on Wikidata and Wikibase](https://joinup.ec.europa.eu/collection/semic-support-centre/event/second-workshop-wikidata-and-wikibase), Brussel, 23 February 2023 
 * [Third SEMIC workshop on Wikidata and Wikibase](https://joinup.ec.europa.eu/collection/semic-support-centre/event/third-workshop-wikidata-and-wikibase), online, 28 March 2023
-* [First Wikibase lexical data workshop](https://wikibase-lex.sciencesconf.org/), Wenen, Septemer 2023  
+* [First Wikibase lexical data workshop](https://wikibase-lex.sciencesconf.org/), Wenen, Septemer 2023
+* [Wikibase and Semantic MediaWiki for data-driven semantics](https://academy.europa.eu/courses/wikibase-and-semantic-mediawiki-for-data-driven-semantics), EU Academy, online <br/>
+<sub>In this course, you will learn how community-led tools and platforms like Wikibase, Semantic MediaWiki, and Wikidata can be used to create a data-driven semantic layer in a bottom-up way.</sub> 
 <hr>
 
 ### Staying updated
