@@ -66,7 +66,7 @@ Latest update: Version 0.1, 15 September 2023
 This section ia a summary of the lecture *[Introduction to Wikidata](https://commons.wikimedia.org/wiki/File:Wegwijzer_in_Wikidata,_Introductiecurus_Wikidata_-_Koninklijke_Bibliotheek,_6_juni_2023.pdf)* ([Zenodo](https://zenodo.org/record/8006441)) (in Dutch)
 
 * Wikidata (d.d. 7 Sept 2023) contains structured descriptions of [107 million things](https://www.wikidata.org/wiki/Wikidata:Statistics), since October 2012
-* [Wikidata items with geo location](https://commons.wikimedia.org/wiki/File:Wikidata_Map_May_2019_Huge.png) (as of May 2019)
+* [Wikidata items with geo location](https://commons.wikimedia.org/wiki/File:Wikidata-map-2023-06-26-items-intensity-100.png) (June 2023). ([older/other maps](https://commons.wikimedia.org/wiki/Wikidata_map)) 
 * What are the principles of Wikidata? (see also the [Wikidata introduction](https://www.wikidata.org/wiki/Wikidata:Introduction))
   - Structured descriptions of things, eg. [Eiffel Tower](https://www.wikidata.org/wiki/Q243)
   - Central storage (vs. distributed in data silos)
