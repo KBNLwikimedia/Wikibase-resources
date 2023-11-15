@@ -6,9 +6,9 @@
 # Wikibase resources
 *A collection of resources, overviews, links and knowlegde related to Wikibase, collected and curated by KB, national library of the Netherlands.*
 
-This page was originally extracted from the slides of the lecture *Introduction Wikibase, the basics*, for employeees of [KB, national library of the Netherlands](https://www.kb.nl) on 7 September 2023. This (rather long) slidedeck is available on [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Introductiecursus_Wikibase_-_Koninklijke_Bibliotheek,_7_september_2023.pdf) and [Zenodo](https://doi.org/10.5281/zenodo.8338811).
+<image src="images/Introductie Wikibase de basis KB 7 sept2023 - openingslide.png" width="250" align="right"/>
 
-(include fronmt page of slidedeck fior viual recognisability))
+This page was originally extracted from the slides of the lecture *Introduction Wikibase, the basics*, for employeees of [KB, national library of the Netherlands](https://www.kb.nl) on 7 September 2023. This (rather long) slidedeck is available on [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Introductiecursus_Wikibase_-_Koninklijke_Bibliotheek,_7_september_2023.pdf) and [Zenodo](https://doi.org/10.5281/zenodo.8338811).
 
 This overview is heavily inspired by the *[Wikibase knowledge graphs, A collection of open source tools and resources related to Wikibase knowledge graphs](https://github.com/shigapov/wikibase-knowledge-graphs)* by Renat Shigapov. I've used his centralized overview many times to improve my understanding of the Wikibase universe, and hope to extend it via the overview below, and help others in a similar way.
 
