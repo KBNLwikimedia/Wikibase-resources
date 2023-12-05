@@ -206,12 +206,12 @@ Wikibase is being evaluated by libraries as a tool to help them store and manage
   - The Smithsonian Libraries ([more info](https://blog.library.si.edu/blog/2022/02/17/wikidata-projects/))
   - OCLC, Wikibase pilot, a.k.a. [Project Passage](https://www.oclc.org/content/dam/research/publications/2019/oclcresearch-creating-library-linked-data-with-wikibase-project-passage-a4.pdf) 
   - Academic libraries USA, [Use cases for institutional Wikibase instances](https://github.com/timothy-mendenhall/wikibase-use-cases/blob/master/UseCases-2020.md) 
-<hr>
 
 ### Wikibase projects for medieval manuscripts
 * See also slides of Introductie Wikibase, Kennismiddag 'Linked data en middeleeuwse handschriften'
 * The DS Catalog Wikibase powers the DS Catalog user interface at https://search.digital-scriptorium.org/ (https://catalog.digital-scriptorium.org/) - to elaborate
 * Biblissima Wikibase: to elaborate
+<hr>
 
 ### Wikibase components & architecture 
 Diefenbach et al. (2021), *[Wikibase as an Infrastructure for Knowledge Graphs: the EU Knowledge Graph](https://hal.science/hal-03353225/document)*, see "3.1 Wikibase infrastructure"  
