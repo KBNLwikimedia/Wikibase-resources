@@ -49,6 +49,7 @@ Latest update: Version 0.2, 15 November 2023
 - [Wikibase courses and tutorials](#wikibase-courses-and-tutorials)
 - [Examples of institutions/projects using Wikibase](#examples-of-institutions-projects-using-wikibase)
   * [Wikibase projects in libraries](#wikibase-projects-in-libraries)
+  * [Wikibase projects for medieval manuscripts](#Wikibase-projects-for-medieval-manuscripts)
 - [Wikibase components & architecture](#wikibase-components---architecture)
 - [Wikibase data model](#wikibase-data-model)
   * [Using alternative vocabularies in Wikibase](#using-alternative-vocabularies-in-wikibase)
@@ -207,8 +208,13 @@ Wikibase is being evaluated by libraries as a tool to help them store and manage
   - Academic libraries USA, [Use cases for institutional Wikibase instances](https://github.com/timothy-mendenhall/wikibase-use-cases/blob/master/UseCases-2020.md) 
 <hr>
 
+### Wikibase projects for medieval manuscripts
+* See also slides of Introductie Wikibase, Kennismiddag 'Linked data en middeleeuwse handschriften'
+* The DS Catalog Wikibase powers the DS Catalog user interface at https://search.digital-scriptorium.org/ (https://catalog.digital-scriptorium.org/) - to elaborate
+* Biblissima Wikibase: to elaborate
+
 ### Wikibase components & architecture 
-* Diefenbach et al. (2021), *[Wikibase as an Infrastructure for Knowledge Graphs: the EU Knowledge Graph](https://hal.science/hal-03353225/document)*, see "3.1 Wikibase infrastructure"  
+Diefenbach et al. (2021), *[Wikibase as an Infrastructure for Knowledge Graphs: the EU Knowledge Graph](https://hal.science/hal-03353225/document)*, see "3.1 Wikibase infrastructure"  
 * [Wikibase architecture documentation](https://wmde.github.io/wikidata-wikibase-architecture ) 
 
 <hr>
