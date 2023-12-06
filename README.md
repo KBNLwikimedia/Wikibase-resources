@@ -39,7 +39,7 @@ This overview can be reused freely and openly, it is available under the [CC-BY 
 
 **Latest updates**
 
-Latest update: Version 0.2, 15 November 2023
+Latest update: Version 0.3, 6 December 2023
 <hr>
 
 ### Contents
@@ -49,7 +49,8 @@ Latest update: Version 0.2, 15 November 2023
 - [Wikibase courses and tutorials](#wikibase-courses-and-tutorials)
 - [Examples of institutions/projects using Wikibase](#examples-of-institutions-projects-using-wikibase)
   * [Wikibase projects in libraries](#wikibase-projects-in-libraries)
-  * [Wikibase projects for medieval manuscripts](#Wikibase-projects-for-medieval-manuscripts)
+  * [Wikibase projects for other GLAMs](#wikibase-projects-for-other-glams)
+  * [Wikibase projects for medieval manuscripts](#wikibase-projects-for-medieval-manuscripts)
 - [Wikibase components & architecture](#wikibase-components---architecture)
 - [Wikibase data model](#wikibase-data-model)
   * [Using alternative vocabularies in Wikibase](#using-alternative-vocabularies-in-wikibase)
@@ -202,12 +203,21 @@ Wikibase is being evaluated by libraries as a tool to help them store and manage
   - National Library of Luxembourg ([more info](https://swib.org/swib21/slides/05-03-gayo.pdf)) 
   - National library of Greece ([more info](https://www.youtube.com/watch?v=TPIS11QK8jI)). See also [Using alternative vocabularies in Wikibase](#using-alternative-vocabularies-in-Wikibase) 
   - National library of the Netherlands (KB)
+  - National Library of Wales ([Semantic Name Authority Repository Cymru](https://snarc-llgc.wikibase.cloud/wiki/Main_Page))
 * USA
   - The Smithsonian Libraries ([more info](https://blog.library.si.edu/blog/2022/02/17/wikidata-projects/))
   - OCLC, Wikibase pilot, a.k.a. [Project Passage](https://www.oclc.org/content/dam/research/publications/2019/oclcresearch-creating-library-linked-data-with-wikibase-project-passage-a4.pdf) 
   - Academic libraries USA, [Use cases for institutional Wikibase instances](https://github.com/timothy-mendenhall/wikibase-use-cases/blob/master/UseCases-2020.md) 
 
+### Wikibase projects for other GLAMs
+* GLAM network Luxembourg ([more info](https://swib.org/swib21/slides/05-03-gayo.pdf)) 
+* Europeana EAGLE network - aims to build a multi-lingual online collection of millions of digitised items from European museums, libraries, archives and multi-media collections, which deal with the surviving inscriptions of the Greek-Roman world. The [EAGLE Wikibase](https://wiki.eagle-network.eu/wiki/Main_Page) is designed to give a tool to anyone interested in bridging this gap and contributing translations of inscriptions. 
+* Fotomuseum Antwerpen [(more info)](https://fomu.be/kijk-en-lees/het-gevaert-papierproject-ontsluiten-van-een-historische-collectie)
+
+<image src="images/IntroductieWikibase_StudiedagMiddeleeuwseHandschriften_6dec2023 - openingslide.png" width="250" align="right"/>
+
 ### Wikibase projects for medieval manuscripts
+* Add sliddeck from 6th december - cover slide toeevoegen aan deze pagina
 * See also slides of Introductie Wikibase, Kennismiddag 'Linked data en middeleeuwse handschriften'
 * The DS Catalog Wikibase powers the DS Catalog user interface at https://search.digital-scriptorium.org/ (https://catalog.digital-scriptorium.org/) - to elaborate
 * Biblissima Wikibase: to elaborate
