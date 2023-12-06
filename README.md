@@ -258,7 +258,7 @@ They do *not* use their Wikibase to publish linked data, but only for data entry
 ### Wikibase hosting
 * [Which Wikibase should I choose?](https://www.mediawiki.org/wiki/Wikibase/Which) 
 * [Wikibase Suite](https://www.mediawiki.org/wiki/Wikibase/Suite) and [Wikibase Docker](https://www.mediawiki.org/wiki/Wikibase/Docker) - software that you install and run on your own hardware (typically via Docker). Good for users who want to try out Wikibase on their own hardware and who want to customize their installation. Good for institutions with large datasets.
-* [Wikibase.cloud](https://www.wikibase.cloud) (Still in closed beta) - free “Wikibase as a service” platform  to create Wikibases quickly and easily managed and maintained by Wikimedia Deutschland.
+* [Wikibase.cloud](https://www.wikibase.cloud) - free “Wikibase as a service” platform  to create Wikibases quickly and easily managed and maintained by Wikimedia Deutschland.
   - [KB’s sandbox WB instance on Wikibase.cloud](https://kbtestwikibase.wikibase.cloud/wiki/Main_Page)
   - [KB's experiences and first impressions](https://commons.wikimedia.org/wiki/File:KB_Wikibase.cloud_Unboxing_Experience,_Netherlands_Wikibase_Knowlegde_Group,_22-07-2022.pdf) with unboxing, setting up, configuring and tweaking their Wikibase.cloud instance. ([See also here](https://kbtestwikibase.wikibase.cloud/wiki/Main_Page#Our_Wikibase.cloud_unboxing_experience_and_first_findings))
 * [Free Wikibase hosting @ Miraheze](https://meta.miraheze.org/wiki/Miraheze)
