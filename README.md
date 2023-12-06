@@ -186,9 +186,8 @@ See also [Awesome Wikibase tutorials](https://github.com/shigapov/wikibase-knowl
   - *[Could you wikify an authority file? Wikibase has been evaluated for the Integrated Authority File (GND)](https://tech-news.wikimedia.de/en/2020/03/04/wikibase-and-gnd/)* by Barbara Fischer and Jens Ohlig, 4 March 2020
   - See also below, [Wikibase projects in libraries](#wikibase-projects-in-libraries)
 * More Wikibase instances
-  - [Wikibase World](https://wikibase.world/wiki/Project:Home)
+  - [Wikibase World](https://wikibase.world/wiki/Project:Home) - [List of Wikibase instances](https://tinyurl.com/2jkres9t) 
   - [Browse all Wikibase.cloud instances](https://www.wikibase.cloud/discovery)
-  - [List of WB instances](https://tinyurl.com/2jkres9t) 
   - [Awesome Wikibase instances](https://github.com/shigapov/wikibase-knowledge-graphs#awesome-wikibase-instances) by Renat Shigapov
 
 <hr>
