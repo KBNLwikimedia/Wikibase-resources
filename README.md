@@ -221,7 +221,19 @@ Wikibase is being evaluated by libraries as a tool to help them store and manage
 * Add sliddeck from 6th december - cover slide toeevoegen aan deze pagina
 * See also slides of Introductie Wikibase, Kennismiddag 'Linked data en middeleeuwse handschriften'
 * The DS Catalog Wikibase powers the DS Catalog user interface at https://search.digital-scriptorium.org/ (https://catalog.digital-scriptorium.org/) - to elaborate
-* Biblissima Wikibase: to elaborate
+
+**Biblissima**
+* [Biblissima+](https://projet.biblissima.fr/en) is a French multi-site digital infrastructure for research and service dedicated to the history of the transmission of ancient texts, from Antiquity to the Renaissance, in the West and in the East.
+* Biblissima services: [Project site](https://projet.biblissima.fr/en) - [Portal](https://portail.biblissima.fr) - [IIIF](https://iiif.biblissima.fr) - [Toolkit](https://outils.biblissima.fr) - [Documentation](https://doc.biblissima.fr/) - [Demos](https://demos.biblissima.fr/) - **[Wikibase](https://data.biblissima.fr/w/Accueil/en)** 
+* [Biblissima Wikibase](https://data.biblissima.fr/w/Accueil/en): Biblissima's authority files
+  * [Available entitiy types](https://data.biblissima.fr/w/Project:Types_d%27entit%C3%A9s) in this Wikibase. Eg.
+    - [Persons/humans](https://data.biblissima.fr/w/Sp%C3%A9cial:Pages_li%C3%A9es/Item:Q168), such as [Aaron Wolf Herlingen (1700?-1768?)](https://data.biblissima.fr/w/Item:Q200) 
+    - [Manuscripts](https://data.biblissima.fr/w/Sp%C3%A9cial:Pages_li%C3%A9es/Item:Q32810 ), such as [Paris. Bibliothèque de l'Arsenal, 1015](https://data.biblissima.fr/w/Item:Q32957)
+  * [All Biblissima Wikibase properties](https://data.biblissima.fr/w/Sp%C3%A9cial:ListProperties) (295 Ps)
+  * Links to other databases: [External IDs](https://data.biblissima.fr/w/Sp%C3%A9cial:ListProperties/?datatype=external-id) (213 Ps)
+  * [Currently no Biblissima SPARQL query service available!](https://data.biblissima.fr/w/Project:API#Point_d'acc%C3%A8s_SPARQL) 
+
+
 <hr>
 
 ### Wikibase components & architecture 
