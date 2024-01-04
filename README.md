@@ -39,7 +39,7 @@ This overview can be reused freely and openly, it is available under the [CC-BY 
 
 **Latest updates**
 
-Latest update: Version 0.3, 6 December 2023 (added section about [medieval manuscripts](#wikibase-projects-for-medieval-manuscripts))
+Latest update: Version 0.3, 6 December 2023 (added [Wikibase projects for medieval manuscripts](#wikibase-projects-for-medieval-manuscripts))
 <hr>
 
 ### Contents
