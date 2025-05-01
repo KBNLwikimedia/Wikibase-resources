@@ -4,7 +4,7 @@
 <a href="https://kbnlwikimedia.github.io/workshops-courses"><< Back to workshops and courses index</a>
 </td>
 <td align="right">
-<a href="https://github.com/KBNLwikimedia/Wikibase-resources">>> To the Github repo of this page</a>
+<a href="https://github.com/KBNLwikimedia/Wikibase-resources" target="_blank">>> To the Github repo of this page</a>
 </td>
 </tr>
 </table>
