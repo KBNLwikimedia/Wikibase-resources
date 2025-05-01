@@ -1,10 +1,15 @@
-[<< Back to workshops and courses index](https://kbnlwikimedia.github.io/workshops-courses) 
+<table width="100%">
+<tr>
+<td align="left">
+<a href="https://kbnlwikimedia.github.io/workshops-courses"><< Back to workshops and courses index</a>
+</td>
+<td align="right">
+<a href="https://github.com/KBNLwikimedia/Wikibase-resources">>> To the Github repo of this page</a>
+</td>
+</tr>
+</table>
 
-<div align="right">
-[>> To the Github repo of this page](https://github.com/KBNLwikimedia/Wikibase-resources)
-</div>
-
-----------------------------
+<hr/>
 
 <p>
 <image src="images/Afbeelding1.jpg" hspace="10"/>
