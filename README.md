@@ -1,4 +1,4 @@
-<table width="100%">
+<table width="100%" border="0">
 <tr>
 <td align="left">
 <a href="https://kbnlwikimedia.github.io/workshops-courses"><< Back to workshops and courses index</a>
