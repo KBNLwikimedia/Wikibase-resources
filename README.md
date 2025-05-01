@@ -1,6 +1,8 @@
 [<< Back to workshops and courses index](https://kbnlwikimedia.github.io/workshops-courses) 
 
+<div align="right">
 [>> To the Github repo of this page](https://github.com/KBNLwikimedia/Wikibase-resources)
+</div>
 
 ----------------------------
 
