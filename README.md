@@ -1,4 +1,6 @@
-[<< Back to workshops and courses index](https://kbnlwikimedia.github.io/workshops-courses)
+[<< Back to workshops and courses index](https://kbnlwikimedia.github.io/workshops-courses) 
+
+[>> To the Github repo of this page](https://github.com/KBNLwikimedia/Wikibase-resources)
 
 <p>
 <image src="images/Afbeelding1.jpg" hspace="10"/>
