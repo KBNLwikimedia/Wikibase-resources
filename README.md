@@ -1,3 +1,5 @@
+[<< Back to workshops and courses index](https://kbnlwikimedia.github.io/workshops-courses)
+
 <p>
 <image src="images/Afbeelding1.jpg" hspace="10"/>
 <image src="images/KB_Nationale-Bibliotheek_Logo_RGB-Zwart-EN.jpg" width="400" align="top"/>
